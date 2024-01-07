@@ -71,17 +71,24 @@ doc.css('tr').each do |row|
   
     # Check if the last td is empty and insert the Liquid code
     if last_td.content.strip.empty?
-      liquid_code = "{% assign currentDate = '#{date}' %}\n" +
+      liquid_code = "\n{% assign currentDate = '#{date}' %}\n" +
                     "{% for entry in site.data.log %}\n" +
                     "  {% if entry.date == currentDate %}\n" +
                     "      {% if entry.content %}\n" +
                     "        <p>{{ entry.content }}</p>\n" +
                     "      {% endif %}\n" +
-                    "      {% if entry.link %}\n" +
-                    "        <p><a href=\"{{ entry.link }}\">Read more</a></p>\n" +
-                    "      {% endif %}\n" +
-                    "  {% endif %}\n" +
-                    "{% endfor %}"
+                    "{% endif %}\n" +
+                    "{% endfor %}\n" +
+                    "      {% for post in site.posts %}\n" +
+                    "            {% if post.date | date: '%Y-%m-%d' == currentDate %}\n" +
+                    "            {% assign foundPost = post %}\n" +
+                    "            {% break %}\n" +
+                    "            {% endif %}\n" +
+                    "        {% endfor %}\n" +
+                    "      {% if foundPost %}\n" +
+                    "        <p><a href='{{ foundPost.url }}'>Read today's post: {{ foundPost.title }}</a></p>\n" +
+                    "  {% endif %}\n"
+
   
       last_td.inner_html = liquid_code
     end
