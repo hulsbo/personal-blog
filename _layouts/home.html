@@ -9,6 +9,8 @@ layout: base
 
   {{ content }}
 
+ 
+  {%- include modified_table.html -%}
 
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
