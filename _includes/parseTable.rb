@@ -61,5 +61,42 @@ doc.css('tr').each do |row|
   merge_empty_tds(prev_td, empty_tds)
 end
 
+    # ADDING LIQUID TO LAST TD
+doc.css('tr').each do |row|
+    # Extract the date from the first td
+    date = row.at_css('td')&.content&.strip
+  
+    # Find the last td in the row
+    last_td = row.at_css('td:last-child')
+  
+    # Check if the last td is empty and insert the Liquid code
+    if last_td.content.strip.empty?
+      liquid_code = "{% assign currentDate = '#{date}' %}\n" +
+                    "{% for entry in site.data.log %}\n" +
+                    "  {% if entry.date == currentDate %}\n" +
+                    "      {% if entry.content %}\n" +
+                    "        <p>{{ entry.content }}</p>\n" +
+                    "      {% endif %}\n" +
+                    "      {% if entry.link %}\n" +
+                    "        <p><a href=\"{{ entry.link }}\">Read more</a></p>\n" +
+                    "      {% endif %}\n" +
+                    "  {% endif %}\n" +
+                    "{% endfor %}"
+  
+      last_td.inner_html = liquid_code
+    end
+  end
+
+    # Adding styling to headers
+    doc.css('tr').each do |row|
+    # Check if any td in this row contains "Weekday" or "phase"
+    if row.css('td').any? { |td| td.content.match?(/\b(Weekday|phase)\b/i) }
+      # Apply inline bold styling to all td elements in this row
+      row.css('td').each do |td|
+        td.inner_html = "<strong>#{td.inner_html}</strong>"
+      end
+    end
+  end
+
 # Save the modified table to a new file
 File.open('modified_table.html', 'w') { |file| file.write(table.to_s) }

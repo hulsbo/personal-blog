@@ -1,0 +1,11 @@
+# _data/log.yml
+- date: "2024-01-01"
+  content: "Content for 2024-01-01."
+  link: "/post-for-2024-01-01.html"
+- date: "2024-01-02"
+  content: "Content for 2024-01-01."
+  link: "/post-for-2024-01-01.html"
+- date: "2024-01-03"
+  content: "Content for 2024-01-01."
+  link: "/post-for-2024-01-01.html"
+# ... more entries
