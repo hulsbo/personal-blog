@@ -1,19 +1,33 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-title: Göteborgsvarvet 2024
 layout: home
 ---
 
+Hello there - and welcome to Stride Reborn!
 
-Hello There! 
+My name is Oskar Huledal and I have a goal this spring of running Göteborgsvarvet 2024. I am new to running races but I love to train and improve.
 
-This is my training blog for running Göteborgsvarvet. Downunder you may see my training plan until the very date of the race.
+This new race goal has made me ambitious in creating a training plan up until the race the 18:th of May.
 
-I have a goal of becoming the best runner I can be this spring. Now that is a bold decision to make, so I thought a good thing to do is to make myself accountable for it by blogging during the process. 
+Goal is to train as much as possible without compromising my health long term, i.e. getting injured.
 
-Please press the "Read more" link whenever it's available. Then I have written some more than just a small conclusion of the training made that day. 
+Being this ambitious, I thought a good thing to do is to make myself accountable towards people who take an interest, by sharing my running plan and its execution via a blog.
 
-Thanks for checking in. 
+Please press the "Read more" link whenever it's available. Then I have written some more than just a small conclusion of the training made that day.
+
+Thanks for checking in.
+
+***Some notable records...***
+
+| Date       | Achievement                 | Time       | Location   |
+|------------|-----------------------------|------------|------------|
+| 2023-12-08 | New PB 10k                  | 40:00      | Treadmill  |
+| 2023-12-09 | New PB 5k                   | 19:20      | Treadmill  |
+| 2023-12-30 | New PB 10k                  | 37:50      | Treadmill  |
+| 2024-01-06 | Premiere Half-Marathon      | 01:37:00   | Treadmill  |
+
+
+**My current goal is to finish the race below 01:25:00.**
 
 Running Regards. //Oskar
