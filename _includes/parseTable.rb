@@ -46,7 +46,7 @@ end
 
 # Process each row in the table
 doc.css('tr').each do |row|
-    
+
     # Check if this row has any td with a child div having class 'softmerge-inner'
     next unless row.css('td div').any? { |div| div.content.include?('|') }
 
@@ -87,17 +87,19 @@ doc.css('tr').each do |row|
                     "      {% endif %}\n" +
                     "{% endif %}\n" +
                     "{% endfor %}\n" +
+                    "{% assign foundPost = nil %}\n" +
                     "      {% for post in site.posts %}\n" +
-                    "            {% if post.date | date: '%Y-%m-%d' == currentDate %}\n" +
-                    "            {% assign foundPost = post %}\n" +
-                    "            {% break %}\n" +
+                    "           {% assign postDate = post.date | date: '%Y-%m-%d' %}\n" +
+                    "            {% if postDate == currentDate %}\n" +
+                    "               {% assign foundPost = post %}\n" + # foundPost is always the earliest post.date inside _posts
                     "            {% endif %}\n" +
                     "        {% endfor %}\n" +
                     "      {% if foundPost %}\n" +
                     "        <p><a href='{{ foundPost.url }}'>Read today's post: {{ foundPost.title }}</a></p>\n" +
-                    "  {% endif %}\n"
+                    "        <p>{{ foundPost.date | date: '%Y-%m-%d' }}<p>" +
+                    "      {% endif %}\n"
 
-  
+
       last_td.inner_html = liquid_code
     end
   end
