@@ -9,8 +9,6 @@ layout: base
 
   {{ content }}
 
- 
-  {%- include modified_table.html -%}
 
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
@@ -19,7 +17,7 @@ layout: base
   {% endif %}
 
 
-  {%- if posts.size > 0 -%}
+  <!-- {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
@@ -38,7 +36,7 @@ layout: base
         {%- endif -%}
       </li>
       {%- endfor -%}
-    </ul>
+    </ul> -->
 
     {% if site.paginate %}
       <div class="pager">
