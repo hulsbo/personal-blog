@@ -1,5 +1,13 @@
 require 'nokogiri'
 
+# Remove old modified_table.html
+if File.exist?("modified_table.html")
+    File.delete("modified_table.html")
+    puts "#{'modified_table.html'} has been deleted. Generating new one..."
+  else
+    puts "File does not exist. Generating new one..."
+  end
+
 # Load the HTML content from the file
 html_content = File.read('Sheet2.html')
 doc = Nokogiri::HTML(html_content)
