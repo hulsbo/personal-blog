@@ -73,10 +73,10 @@ end
 doc.css('tr').each do |row|
     # Extract the date from the first td
     date = row.at_css('td')&.content&.strip
-  
+
     # Find the last td in the row
     last_td = row.at_css('td:last-child')
-  
+
     # Check if the last td is empty and insert the Liquid code
     if last_td.content.strip.empty?
       liquid_code = "\n{% assign currentDate = '#{date}' %}\n" +
