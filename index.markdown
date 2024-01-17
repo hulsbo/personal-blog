@@ -25,7 +25,7 @@ Thanks for checking in.
 | 2023-12-08 | New PB 10k                  | 40:00      | Treadmill  |
 | 2023-12-09 | New PB 5k                   | 19:20      | Treadmill  |
 | 2023-12-30 | New PB 10k                  | 37:50      | Treadmill  |
-| 2024-01-06 | Premiere Half-Marathon      | 01:37:00   | Treadmill  |
+| 2024-01-06 | Premiere Half-Marathon      | 01:34:00   | Treadmill  |
 
 
 **My current goal is to finish the race below 01:25:00.**
