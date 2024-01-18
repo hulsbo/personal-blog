@@ -85,6 +85,15 @@ doc.css('tr').each do |row|
                     "      {% if entry.content %}\n" +
                     "        <p>{{ entry.content }}</p>\n" +
                     "      {% endif %}\n" +
+                    "      {% if entry.distance %}\n" +
+                    "        <p>Total distance: {{ entry.distance }}</p>\n" +
+                    "      {% endif %}\n" +
+                    "      {% if entry.ahr %}\n" +
+                    "        <p>Average HR: {{ entry.ahr }}</p>\n" +
+                    "      {% endif %}\n" +
+                    "      {% if entry.highlight %}\n" +
+                    "        <p>Workout highlight: {{ entry.highlight }}</p>\n" +
+                    "      {% endif %}\n" +
                     "{% endif %}\n" +
                     "{% endfor %}\n" +
                     "{% assign foundPost = nil %}\n" +
