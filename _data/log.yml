@@ -3,10 +3,16 @@
   content: "Snowy and cold, long commuting, training cancelled"
   link:
 - date: "2024-01-16"
-  content: "Snowy and cold, commuting replaced with long 65 min session at gym. Got a little stomach pain in the middle so had to slow down. Did 30 min with incline on 6 degrees at 13.5 km/h. Mean HR 165. Last 4 kilometers mean HR 177. Total distance 14.4 km"
+  content: "Snowy and cold, commuting replaced with long 65 min session at gym. Got a little stomach pain in the middle so had to slow down. Did 30 min with incline on 6 degrees at 13.5 km/h. Mean HR 165. Last 4 kilometers mean HR 177."
+  distance: "14.4 km"
+  highlight: "HR at 179 last 10 minutes didn't feel too discomforting."
+  ahr: "165"
   link:
 - date: "2024-01-17"
-  content:
+  content: "Started training late in the evening. I was also tired from yesterday's session which I realized was too aggressive in relation to the plan. Decided to run at 16 km/h until I hit 179 HR which I did at about 5,5 km. Then I slowed down to 13,5 km/h, then again to 12,5 km/h but with 6 degrees of incline."
+  distance: "11.5 km"
+  highlight: "Persevered despite low heartrate/pain ratio."
+  ahr: "169"
   link:
 - date: "2024-01-18"
   content:
