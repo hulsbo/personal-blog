@@ -12,9 +12,9 @@ This new race goal has made me ambitious in creating a training plan up until th
 
 Goal is to train as much as possible without compromising my health long term, i.e. getting injured.
 
-Being this ambitious, I thought a good thing to do is to make myself accountable towards people who take an interest, by sharing my running plan and its execution via a blog.
+Being this ambitious, I thought a good thing to do is to make myself accountable towards people who take an interest, by sharing my running plan and its execution via this blog.
 
-Please press the "Read more" link whenever it's available. Then I have written some more than just a small conclusion of the training made that day.
+I recommend heading over to the [Running Plan](/running-plan.markdown). Apart from the plan itself you can there also find all blog posts written so far. I aim to write about learnings and reflections about running in general as I'm progressing with the training and studying the theory.
 
 Thanks for checking in.
 
