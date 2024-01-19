@@ -1,63 +1,88 @@
 # _data/log.yml
 - date: "2024-01-15"
   content: "Snowy and cold, long commuting, training cancelled"
-  link:
+
 - date: "2024-01-16"
   content: "Snowy and cold, commuting replaced with long 65 min session at gym. Got a little stomach pain in the middle so had to slow down. Did 30 min with incline on 6 degrees at 13.5 km/h. Last 4 kilometers mean HR 177."
   distance: "14.4 km"
   highlight: "HR at 179 last 10 minutes didn't feel too discomforting."
   ahr: "165"
-  link:
+
 - date: "2024-01-17"
   content: "Started training late in the evening. I was also tired from yesterday's session which I realized was too aggressive in relation to the plan. Decided to run at 16 km/h until I hit 179 HR which I did at about 5,5 km. Then I slowed down to 13,5 km/h, then stomach pain, so slowed down again to 12,5 km/h but with 6 degrees of incline."
   distance: "11.5 km"
   highlight: "Persevered despite low heartrate/pain ratio."
   ahr: "169"
-  link:
+
 - date: "2024-01-18"
   content: "60 min run is not equivalent to 60 min bike commute. Let myself therefore take it easier than on tuesday, running 45 min at a relaxed tempo. Held 14 km/h with incline 1, then 2, then 3 at about 25 min. Last 3 min with incline on 6 and 13 km/h."
   distance: "10.4 km"
   highlight: "My cadence seem to really be improving! According to my watch I had an average cadence of 179 HR, and I didn't even go at my maximum speed for the 10k this time."
   ahr: "163"
-  link:
+
 - date: "2024-01-19"
   content:
-  link:
+  distance:
+  ahr:
+  highlight:
 - date: "2024-01-20"
   content:
-  link:
+  distance:
+  ahr:
+  highlight:
 - date: "2024-01-21"
   content:
-  link:
+  distance:
+  ahr:
+  highlight:
 - date: "2024-01-22"
   content:
-  link:
+  distance:
+  ahr:
+  highlight:
 - date: "2024-01-23"
   content:
-  link:
+  distance:
+  ahr:
+  highlight:
 - date: "2024-01-24"
   content:
-  link:
+  distance:
+  ahr:
+  highlight:
 - date: "2024-01-25"
   content:
-  link:
+  distance:
+  ahr:
+  highlight:
 - date: "2024-01-26"
   content:
-  link:
+  distance:
+  ahr:
+  highlight:
 - date: "2024-01-27"
   content:
-  link:
+  distance:
+  ahr:
+  highlight:
 - date: "2024-01-28"
   content:
-  link:
+  distance:
+  ahr:
+  highlight:
 - date: "2024-01-29"
   content:
-  link:
+  distance:
+  ahr:
+  highlight:
 - date: "2024-01-30"
   content:
-  link:
+  distance:
+  ahr:
+  highlight:
 - date: "2024-01-31"
   content:
-  link:
-
+  distance:
+  ahr:
+  highlight:
 
