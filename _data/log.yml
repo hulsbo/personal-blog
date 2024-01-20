@@ -19,17 +19,15 @@
   distance: "10.4 km"
   highlight: "My cadence seem to really be improving! According to my watch I had an average cadence of 179 HR, and I didn't even go at my maximum speed for the 10k this time."
   ahr: "163"
-
 - date: "2024-01-19"
-  content:
-  distance:
+  content: "Took a rest day because no time for training but as well to compensate for Tuesday's overtraining."
   ahr:
   highlight:
 - date: "2024-01-20"
-  content:
-  distance:
-  ahr:
-  highlight:
+  content: "Interval training instead of distance session. First interval: 3 degrees at 13,5 km/h for 10 min. Second interval: 3 degrees at 14 km/h for 6.5 min. Third interval: 3 degrees at 15 km/h."
+  distance: "7.7 km"
+  ahr: "First and second interval: 165. Third: 170."
+  highlight: "During the 5 min pauses I had 3 degrees incline and 10,5 km/h but retained a HR of sub 140. This HR required three weeks ago an incline of 1."
 - date: "2024-01-21"
   content:
   distance:

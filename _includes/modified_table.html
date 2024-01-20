@@ -3,7 +3,7 @@
             
         <tr style="height: 19px">
                 
-                <td class="s0 softmerge" dir="ltr" colspan="5"><strong>
+                <td class="date" dir="ltr" colspan="5"><strong>
                     <div class="softmerge-inner" style="width:698px;left:-1px">Week: 1/20 | Phase: 1/4 | Sub-phase: 1/5
                         (Elevate) | Week's total training time: 200 min</div>
                 </strong></td>
@@ -14,11 +14,11 @@
             </tr>
 <tr style="height: 19px">
                 
-                <td class="s2" dir="ltr"><strong>Date</strong></td>
-                <td class="s2" dir="ltr"><strong>Weekday</strong></td>
-                <td class="s2" dir="ltr"><strong>Activity</strong></td>
-                <td class="s2" dir="ltr"><strong>Duration</strong></td>
-                <td class="s2" dir="ltr"><strong>Note</strong></td>
+                <td class="date" dir="ltr"><strong>Date</strong></td>
+                <td class="wday" dir="ltr"><strong>Weekday</strong></td>
+                <td class="type" dir="ltr"><strong>Activity</strong></td>
+                <td class="dura" dir="ltr"><strong>Duration</strong></td>
+                <td class="note" dir="ltr"><strong>Note</strong></td>
             </tr>
 </thead>
         <tbody>
@@ -26,13 +26,13 @@
             
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-01-01</td>
-                <td class="s4" dir="ltr">Mon</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-01-01</td>
+                <td class="wday" dir="ltr">Mon</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-01-01' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -66,13 +66,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-01-02</td>
-                <td class="s4" dir="ltr">Tue</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-01-02</td>
+                <td class="wday" dir="ltr">Tue</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-01-02' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -106,13 +106,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-01-03</td>
-                <td class="s4" dir="ltr">Wed</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-01-03</td>
+                <td class="wday" dir="ltr">Wed</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Threshold Session</div>
                 </td>
-                <td class="s4">40 min</td>
-                <td class="s4">
+                <td class="dura">40 min</td>
+                <td class="note">
 {% assign currentDate = '2024-01-03' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -146,13 +146,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-01-04</td>
-                <td class="s4" dir="ltr">Thu</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-01-04</td>
+                <td class="wday" dir="ltr">Thu</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-01-04' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -186,13 +186,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-01-05</td>
-                <td class="s4" dir="ltr">Fri</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-01-05</td>
+                <td class="wday" dir="ltr">Fri</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Interval Session</div>
                 </td>
-                <td class="s4">30 min</td>
-                <td class="s4">
+                <td class="dura">30 min</td>
+                <td class="note">
 {% assign currentDate = '2024-01-05' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -226,13 +226,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-01-06</td>
-                <td class="s4" dir="ltr">Sat</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-01-06</td>
+                <td class="wday" dir="ltr">Sat</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Distance Session</div>
                 </td>
-                <td class="s4">40 min</td>
-                <td class="s4">
+                <td class="dura">40 min</td>
+                <td class="note">
 {% assign currentDate = '2024-01-06' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -266,11 +266,11 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-01-07</td>
-                <td class="s4" dir="ltr">Sun</td>
-                <td class="s4" dir="ltr">Long Session</td>
-                <td class="s4">90 min</td>
-                <td class="s4">
+                <td class="date" dir="ltr">2024-01-07</td>
+                <td class="wday" dir="ltr">Sun</td>
+                <td class="type" dir="ltr">Long Session</td>
+                <td class="dura">90 min</td>
+                <td class="note">
 {% assign currentDate = '2024-01-07' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -304,7 +304,7 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s0 softmerge" dir="ltr" colspan="5"><strong>
+                <td class="date" dir="ltr" colspan="5"><strong>
                     <div class="softmerge-inner" style="width:698px;left:-1px">Week: 2/20 | Phase: 1/4 | Sub-phase: 2/5
                         (Elevate) | Week's total training time: 220 min</div>
                 </strong></td>
@@ -315,13 +315,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-01-08</td>
-                <td class="s4" dir="ltr">Mon</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-01-08</td>
+                <td class="wday" dir="ltr">Mon</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-01-08' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -355,13 +355,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-01-09</td>
-                <td class="s4" dir="ltr">Tue</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-01-09</td>
+                <td class="wday" dir="ltr">Tue</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-01-09' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -395,13 +395,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-01-10</td>
-                <td class="s4" dir="ltr">Wed</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-01-10</td>
+                <td class="wday" dir="ltr">Wed</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Threshold Session</div>
                 </td>
-                <td class="s4">44 min</td>
-                <td class="s4">
+                <td class="dura">44 min</td>
+                <td class="note">
 {% assign currentDate = '2024-01-10' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -435,13 +435,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-01-11</td>
-                <td class="s4" dir="ltr">Thu</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-01-11</td>
+                <td class="wday" dir="ltr">Thu</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-01-11' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -475,13 +475,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-01-12</td>
-                <td class="s4" dir="ltr">Fri</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-01-12</td>
+                <td class="wday" dir="ltr">Fri</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Interval Session</div>
                 </td>
-                <td class="s4">33 min</td>
-                <td class="s4">
+                <td class="dura">33 min</td>
+                <td class="note">
 {% assign currentDate = '2024-01-12' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -515,13 +515,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-01-13</td>
-                <td class="s4" dir="ltr">Sat</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-01-13</td>
+                <td class="wday" dir="ltr">Sat</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Distance Session</div>
                 </td>
-                <td class="s4">44 min</td>
-                <td class="s4">
+                <td class="dura">44 min</td>
+                <td class="note">
 {% assign currentDate = '2024-01-13' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -555,11 +555,11 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-01-14</td>
-                <td class="s4" dir="ltr">Sun</td>
-                <td class="s4" dir="ltr">Long Session</td>
-                <td class="s4">99 min</td>
-                <td class="s4">
+                <td class="date" dir="ltr">2024-01-14</td>
+                <td class="wday" dir="ltr">Sun</td>
+                <td class="type" dir="ltr">Long Session</td>
+                <td class="dura">99 min</td>
+                <td class="note">
 {% assign currentDate = '2024-01-14' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -593,7 +593,7 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s0 softmerge" dir="ltr" colspan="5"><strong>
+                <td class="date" dir="ltr" colspan="5"><strong>
                     <div class="softmerge-inner" style="width:698px;left:-1px">Week: 3/20 | Phase: 1/4 | Sub-phase: 3/5
                         (Elevate) | Week's total training time: 240 min</div>
                 </strong></td>
@@ -604,13 +604,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-01-15</td>
-                <td class="s4" dir="ltr">Mon</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-01-15</td>
+                <td class="wday" dir="ltr">Mon</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-01-15' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -644,13 +644,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-01-16</td>
-                <td class="s4" dir="ltr">Tue</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-01-16</td>
+                <td class="wday" dir="ltr">Tue</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-01-16' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -684,13 +684,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-01-17</td>
-                <td class="s4" dir="ltr">Wed</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-01-17</td>
+                <td class="wday" dir="ltr">Wed</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Threshold Session</div>
                 </td>
-                <td class="s4">48 min</td>
-                <td class="s4">
+                <td class="dura">48 min</td>
+                <td class="note">
 {% assign currentDate = '2024-01-17' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -724,13 +724,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-01-18</td>
-                <td class="s4" dir="ltr">Thu</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-01-18</td>
+                <td class="wday" dir="ltr">Thu</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-01-18' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -764,13 +764,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-01-19</td>
-                <td class="s4" dir="ltr">Fri</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-01-19</td>
+                <td class="wday" dir="ltr">Fri</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Interval Session</div>
                 </td>
-                <td class="s4">36 min</td>
-                <td class="s4">
+                <td class="dura">36 min</td>
+                <td class="note">
 {% assign currentDate = '2024-01-19' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -804,13 +804,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-01-20</td>
-                <td class="s4" dir="ltr">Sat</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-01-20</td>
+                <td class="wday" dir="ltr">Sat</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Distance Session</div>
                 </td>
-                <td class="s4">48 min</td>
-                <td class="s4">
+                <td class="dura">48 min</td>
+                <td class="note">
 {% assign currentDate = '2024-01-20' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -844,11 +844,11 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-01-21</td>
-                <td class="s4" dir="ltr">Sun</td>
-                <td class="s4" dir="ltr">Long Session</td>
-                <td class="s4">108 min</td>
-                <td class="s4">
+                <td class="date" dir="ltr">2024-01-21</td>
+                <td class="wday" dir="ltr">Sun</td>
+                <td class="type" dir="ltr">Long Session</td>
+                <td class="dura">108 min</td>
+                <td class="note">
 {% assign currentDate = '2024-01-21' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -882,7 +882,7 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s0 softmerge" dir="ltr" colspan="5"><strong>
+                <td class="date" dir="ltr" colspan="5"><strong>
                     <div class="softmerge-inner" style="width:698px;left:-1px">Week: 4/20 | Phase: 1/4 | Sub-phase: 4/5
                         (Elevate) | Week's total training time: 260 min</div>
                 </strong></td>
@@ -893,13 +893,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-01-22</td>
-                <td class="s4" dir="ltr">Mon</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-01-22</td>
+                <td class="wday" dir="ltr">Mon</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-01-22' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -933,13 +933,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-01-23</td>
-                <td class="s4" dir="ltr">Tue</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-01-23</td>
+                <td class="wday" dir="ltr">Tue</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-01-23' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -973,13 +973,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-01-24</td>
-                <td class="s4" dir="ltr">Wed</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-01-24</td>
+                <td class="wday" dir="ltr">Wed</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Threshold Session</div>
                 </td>
-                <td class="s4">52 min</td>
-                <td class="s4">
+                <td class="dura">52 min</td>
+                <td class="note">
 {% assign currentDate = '2024-01-24' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -1013,13 +1013,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-01-25</td>
-                <td class="s4" dir="ltr">Thu</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-01-25</td>
+                <td class="wday" dir="ltr">Thu</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-01-25' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -1053,13 +1053,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-01-26</td>
-                <td class="s4" dir="ltr">Fri</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-01-26</td>
+                <td class="wday" dir="ltr">Fri</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Interval Session</div>
                 </td>
-                <td class="s4">39 min</td>
-                <td class="s4">
+                <td class="dura">39 min</td>
+                <td class="note">
 {% assign currentDate = '2024-01-26' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -1093,13 +1093,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-01-27</td>
-                <td class="s4" dir="ltr">Sat</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-01-27</td>
+                <td class="wday" dir="ltr">Sat</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Distance Session</div>
                 </td>
-                <td class="s4">52 min</td>
-                <td class="s4">
+                <td class="dura">52 min</td>
+                <td class="note">
 {% assign currentDate = '2024-01-27' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -1133,11 +1133,11 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-01-28</td>
-                <td class="s4" dir="ltr">Sun</td>
-                <td class="s4" dir="ltr">Long Session</td>
-                <td class="s4">117 min</td>
-                <td class="s4">
+                <td class="date" dir="ltr">2024-01-28</td>
+                <td class="wday" dir="ltr">Sun</td>
+                <td class="type" dir="ltr">Long Session</td>
+                <td class="dura">117 min</td>
+                <td class="note">
 {% assign currentDate = '2024-01-28' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -1171,7 +1171,7 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s0 softmerge" dir="ltr" colspan="5"><strong>
+                <td class="date" dir="ltr" colspan="5"><strong>
                     <div class="softmerge-inner" style="width:698px;left:-1px">Week: 5/20 | Phase: 1/4 | Sub-phase: 5/5
                         (Rest) | Week's total training time: 140 min</div>
                 </strong></td>
@@ -1182,13 +1182,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-01-29</td>
-                <td class="s4" dir="ltr">Mon</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-01-29</td>
+                <td class="wday" dir="ltr">Mon</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-01-29' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -1222,13 +1222,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-01-30</td>
-                <td class="s4" dir="ltr">Tue</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-01-30</td>
+                <td class="wday" dir="ltr">Tue</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-01-30' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -1262,13 +1262,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-01-31</td>
-                <td class="s4" dir="ltr">Wed</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-01-31</td>
+                <td class="wday" dir="ltr">Wed</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Threshold Session</div>
                 </td>
-                <td class="s4">28 min</td>
-                <td class="s4">
+                <td class="dura">28 min</td>
+                <td class="note">
 {% assign currentDate = '2024-01-31' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -1302,13 +1302,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-02-01</td>
-                <td class="s4" dir="ltr">Thu</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-02-01</td>
+                <td class="wday" dir="ltr">Thu</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-02-01' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -1342,13 +1342,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-02-02</td>
-                <td class="s4" dir="ltr">Fri</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-02-02</td>
+                <td class="wday" dir="ltr">Fri</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Interval Session</div>
                 </td>
-                <td class="s4">21 min</td>
-                <td class="s4">
+                <td class="dura">21 min</td>
+                <td class="note">
 {% assign currentDate = '2024-02-02' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -1382,13 +1382,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-02-03</td>
-                <td class="s4" dir="ltr">Sat</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-02-03</td>
+                <td class="wday" dir="ltr">Sat</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Distance Session</div>
                 </td>
-                <td class="s4">28 min</td>
-                <td class="s4">
+                <td class="dura">28 min</td>
+                <td class="note">
 {% assign currentDate = '2024-02-03' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -1422,11 +1422,11 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-02-04</td>
-                <td class="s4" dir="ltr">Sun</td>
-                <td class="s4" dir="ltr">Long Session</td>
-                <td class="s4">63 min</td>
-                <td class="s4">
+                <td class="date" dir="ltr">2024-02-04</td>
+                <td class="wday" dir="ltr">Sun</td>
+                <td class="type" dir="ltr">Long Session</td>
+                <td class="dura">63 min</td>
+                <td class="note">
 {% assign currentDate = '2024-02-04' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -1460,7 +1460,7 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s0 softmerge" dir="ltr" colspan="5"><strong>
+                <td class="date" dir="ltr" colspan="5"><strong>
                     <div class="softmerge-inner" style="width:698px;left:-1px">Week: 6/20 | Phase: 2/4 | Sub-phase: 1/5
                         (Elevate) | Week's total training time: 220 min</div>
                 </strong></td>
@@ -1471,21 +1471,21 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s2" dir="ltr"><strong>Date</strong></td>
-                <td class="s2" dir="ltr"><strong>Weekday</strong></td>
-                <td class="s2" dir="ltr"><strong>Activity</strong></td>
-                <td class="s2" dir="ltr"><strong>Duration</strong></td>
-                <td class="s2" dir="ltr"><strong>Note</strong></td>
+                <td class="date" dir="ltr"><strong>Date</strong></td>
+                <td class="wday" dir="ltr"><strong>Weekday</strong></td>
+                <td class="type" dir="ltr"><strong>Activity</strong></td>
+                <td class="dura" dir="ltr"><strong>Duration</strong></td>
+                <td class="note" dir="ltr"><strong>Note</strong></td>
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-02-05</td>
-                <td class="s4" dir="ltr">Mon</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-02-05</td>
+                <td class="wday" dir="ltr">Mon</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td>
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-02-05' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -1519,13 +1519,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-02-06</td>
-                <td class="s4" dir="ltr">Tue</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-02-06</td>
+                <td class="wday" dir="ltr">Tue</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td>
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-02-06' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -1559,13 +1559,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-02-07</td>
-                <td class="s4" dir="ltr">Wed</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-02-07</td>
+                <td class="wday" dir="ltr">Wed</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Threshold Session</div>
                 </td>
-                <td class="s4">44 min</td>
-                <td>
+                <td class="dura">44 min</td>
+                <td class="note">
 {% assign currentDate = '2024-02-07' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -1599,13 +1599,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-02-08</td>
-                <td class="s4" dir="ltr">Thu</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-02-08</td>
+                <td class="wday" dir="ltr">Thu</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td>
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-02-08' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -1639,13 +1639,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-02-09</td>
-                <td class="s4" dir="ltr">Fri</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-02-09</td>
+                <td class="wday" dir="ltr">Fri</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Interval Session</div>
                 </td>
-                <td class="s4">33 min</td>
-                <td>
+                <td class="dura">33 min</td>
+                <td class="note">
 {% assign currentDate = '2024-02-09' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -1679,13 +1679,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-02-10</td>
-                <td class="s4" dir="ltr">Sat</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-02-10</td>
+                <td class="wday" dir="ltr">Sat</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Distance Session</div>
                 </td>
-                <td class="s4">44 min</td>
-                <td class="s4">
+                <td class="dura">44 min</td>
+                <td class="note">
 {% assign currentDate = '2024-02-10' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -1719,11 +1719,11 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-02-11</td>
-                <td class="s4" dir="ltr">Sun</td>
-                <td class="s4" dir="ltr">Long Session</td>
-                <td class="s4">99 min</td>
-                <td class="s4">
+                <td class="date" dir="ltr">2024-02-11</td>
+                <td class="wday" dir="ltr">Sun</td>
+                <td class="type" dir="ltr">Long Session</td>
+                <td class="dura">99 min</td>
+                <td class="note">
 {% assign currentDate = '2024-02-11' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -1757,7 +1757,7 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s0 softmerge" dir="ltr" colspan="5"><strong>
+                <td class="date" dir="ltr" colspan="5"><strong>
                     <div class="softmerge-inner" style="width:698px;left:-1px">Week: 7/20 | Phase: 2/4 | Sub-phase: 2/5
                         (Elevate) | Week's total training time: 242 min</div>
                 </strong></td>
@@ -1768,13 +1768,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-02-12</td>
-                <td class="s4" dir="ltr">Mon</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-02-12</td>
+                <td class="wday" dir="ltr">Mon</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td>
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-02-12' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -1808,13 +1808,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-02-13</td>
-                <td class="s4" dir="ltr">Tue</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-02-13</td>
+                <td class="wday" dir="ltr">Tue</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td>
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-02-13' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -1848,13 +1848,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-02-14</td>
-                <td class="s4" dir="ltr">Wed</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-02-14</td>
+                <td class="wday" dir="ltr">Wed</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Threshold Session</div>
                 </td>
-                <td class="s4">48 min</td>
-                <td>
+                <td class="dura">48 min</td>
+                <td class="note">
 {% assign currentDate = '2024-02-14' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -1888,13 +1888,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-02-15</td>
-                <td class="s4" dir="ltr">Thu</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-02-15</td>
+                <td class="wday" dir="ltr">Thu</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td>
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-02-15' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -1928,13 +1928,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-02-16</td>
-                <td class="s4" dir="ltr">Fri</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-02-16</td>
+                <td class="wday" dir="ltr">Fri</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Interval Session</div>
                 </td>
-                <td class="s4">36 min</td>
-                <td>
+                <td class="dura">36 min</td>
+                <td class="note">
 {% assign currentDate = '2024-02-16' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -1968,13 +1968,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-02-17</td>
-                <td class="s4" dir="ltr">Sat</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-02-17</td>
+                <td class="wday" dir="ltr">Sat</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Distance Session</div>
                 </td>
-                <td class="s4">48 min</td>
-                <td>
+                <td class="dura">48 min</td>
+                <td class="note">
 {% assign currentDate = '2024-02-17' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -2008,11 +2008,11 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-02-18</td>
-                <td class="s4" dir="ltr">Sun</td>
-                <td class="s4" dir="ltr">Long Session</td>
-                <td class="s4">109 min</td>
-                <td>
+                <td class="date" dir="ltr">2024-02-18</td>
+                <td class="wday" dir="ltr">Sun</td>
+                <td class="type" dir="ltr">Long Session</td>
+                <td class="dura">109 min</td>
+                <td class="note">
 {% assign currentDate = '2024-02-18' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -2046,7 +2046,7 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s0 softmerge" dir="ltr" colspan="5"><strong>
+                <td class="date" dir="ltr" colspan="5"><strong>
                     <div class="softmerge-inner" style="width:698px;left:-1px">Week: 8/20 | Phase: 2/4 | Sub-phase: 3/5
                         (Elevate) | Week's total training time: 264 min</div>
                 </strong></td>
@@ -2057,13 +2057,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-02-19</td>
-                <td class="s4" dir="ltr">Mon</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-02-19</td>
+                <td class="wday" dir="ltr">Mon</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td>
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-02-19' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -2097,13 +2097,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-02-20</td>
-                <td class="s4" dir="ltr">Tue</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-02-20</td>
+                <td class="wday" dir="ltr">Tue</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td>
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-02-20' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -2137,13 +2137,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-02-21</td>
-                <td class="s4" dir="ltr">Wed</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-02-21</td>
+                <td class="wday" dir="ltr">Wed</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Threshold Session</div>
                 </td>
-                <td class="s4">53 min</td>
-                <td>
+                <td class="dura">53 min</td>
+                <td class="note">
 {% assign currentDate = '2024-02-21' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -2177,13 +2177,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-02-22</td>
-                <td class="s4" dir="ltr">Thu</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-02-22</td>
+                <td class="wday" dir="ltr">Thu</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td>
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-02-22' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -2217,13 +2217,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-02-23</td>
-                <td class="s4" dir="ltr">Fri</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-02-23</td>
+                <td class="wday" dir="ltr">Fri</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Interval Session</div>
                 </td>
-                <td class="s4">40 min</td>
-                <td>
+                <td class="dura">40 min</td>
+                <td class="note">
 {% assign currentDate = '2024-02-23' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -2257,13 +2257,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-02-24</td>
-                <td class="s4" dir="ltr">Sat</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-02-24</td>
+                <td class="wday" dir="ltr">Sat</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Distance Session</div>
                 </td>
-                <td class="s4">53 min</td>
-                <td>
+                <td class="dura">53 min</td>
+                <td class="note">
 {% assign currentDate = '2024-02-24' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -2297,11 +2297,11 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-02-25</td>
-                <td class="s4" dir="ltr">Sun</td>
-                <td class="s4" dir="ltr">Long Session</td>
-                <td class="s4">119 min</td>
-                <td>
+                <td class="date" dir="ltr">2024-02-25</td>
+                <td class="wday" dir="ltr">Sun</td>
+                <td class="type" dir="ltr">Long Session</td>
+                <td class="dura">119 min</td>
+                <td class="note">
 {% assign currentDate = '2024-02-25' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -2335,7 +2335,7 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s0 softmerge" dir="ltr" colspan="5"><strong>
+                <td class="date" dir="ltr" colspan="5"><strong>
                     <div class="softmerge-inner" style="width:698px;left:-1px">Week: 9/20 | Phase: 2/4 | Sub-phase: 4/5
                         (Elevate) | Week's total training time: 286 min</div>
                 </strong></td>
@@ -2346,13 +2346,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-02-26</td>
-                <td class="s4" dir="ltr">Mon</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-02-26</td>
+                <td class="wday" dir="ltr">Mon</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td>
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-02-26' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -2386,13 +2386,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-02-27</td>
-                <td class="s4" dir="ltr">Tue</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-02-27</td>
+                <td class="wday" dir="ltr">Tue</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td>
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-02-27' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -2426,13 +2426,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-02-28</td>
-                <td class="s4" dir="ltr">Wed</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-02-28</td>
+                <td class="wday" dir="ltr">Wed</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Threshold Session</div>
                 </td>
-                <td class="s4">57 min</td>
-                <td>
+                <td class="dura">57 min</td>
+                <td class="note">
 {% assign currentDate = '2024-02-28' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -2466,13 +2466,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-02-29</td>
-                <td class="s4" dir="ltr">Thu</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-02-29</td>
+                <td class="wday" dir="ltr">Thu</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td>
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-02-29' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -2506,13 +2506,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-03-01</td>
-                <td class="s4" dir="ltr">Fri</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-03-01</td>
+                <td class="wday" dir="ltr">Fri</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Interval Session</div>
                 </td>
-                <td class="s4">43 min</td>
-                <td>
+                <td class="dura">43 min</td>
+                <td class="note">
 {% assign currentDate = '2024-03-01' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -2546,13 +2546,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-03-02</td>
-                <td class="s4" dir="ltr">Sat</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-03-02</td>
+                <td class="wday" dir="ltr">Sat</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Distance Session</div>
                 </td>
-                <td class="s4">57 min</td>
-                <td>
+                <td class="dura">57 min</td>
+                <td class="note">
 {% assign currentDate = '2024-03-02' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -2586,11 +2586,11 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-03-03</td>
-                <td class="s4" dir="ltr">Sun</td>
-                <td class="s4" dir="ltr">Long Session</td>
-                <td class="s4">129 min</td>
-                <td>
+                <td class="date" dir="ltr">2024-03-03</td>
+                <td class="wday" dir="ltr">Sun</td>
+                <td class="type" dir="ltr">Long Session</td>
+                <td class="dura">129 min</td>
+                <td class="note">
 {% assign currentDate = '2024-03-03' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -2624,7 +2624,7 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s0 softmerge" dir="ltr" colspan="5"><strong>
+                <td class="date" dir="ltr" colspan="5"><strong>
                     <div class="softmerge-inner" style="width:698px;left:-1px">Week: 10/20 | Phase: 2/4 | Sub-phase: 5/5
                         (Rest) | Week's total training time: 154 min</div>
                 </strong></td>
@@ -2635,13 +2635,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-03-04</td>
-                <td class="s4" dir="ltr">Mon</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-03-04</td>
+                <td class="wday" dir="ltr">Mon</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td>
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-03-04' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -2675,13 +2675,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-03-05</td>
-                <td class="s4" dir="ltr">Tue</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-03-05</td>
+                <td class="wday" dir="ltr">Tue</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td>
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-03-05' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -2715,13 +2715,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-03-06</td>
-                <td class="s4" dir="ltr">Wed</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-03-06</td>
+                <td class="wday" dir="ltr">Wed</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Threshold Session</div>
                 </td>
-                <td class="s4">31 min</td>
-                <td>
+                <td class="dura">31 min</td>
+                <td class="note">
 {% assign currentDate = '2024-03-06' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -2755,13 +2755,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-03-07</td>
-                <td class="s4" dir="ltr">Thu</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-03-07</td>
+                <td class="wday" dir="ltr">Thu</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td>
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-03-07' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -2795,13 +2795,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-03-08</td>
-                <td class="s4" dir="ltr">Fri</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-03-08</td>
+                <td class="wday" dir="ltr">Fri</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Interval Session</div>
                 </td>
-                <td class="s4">23 min</td>
-                <td>
+                <td class="dura">23 min</td>
+                <td class="note">
 {% assign currentDate = '2024-03-08' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -2835,13 +2835,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-03-09</td>
-                <td class="s4" dir="ltr">Sat</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-03-09</td>
+                <td class="wday" dir="ltr">Sat</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Distance Session</div>
                 </td>
-                <td class="s4">31 min</td>
-                <td>
+                <td class="dura">31 min</td>
+                <td class="note">
 {% assign currentDate = '2024-03-09' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -2875,11 +2875,11 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-03-10</td>
-                <td class="s4" dir="ltr">Sun</td>
-                <td class="s4" dir="ltr">Long Session</td>
-                <td class="s4">69 min</td>
-                <td>
+                <td class="date" dir="ltr">2024-03-10</td>
+                <td class="wday" dir="ltr">Sun</td>
+                <td class="type" dir="ltr">Long Session</td>
+                <td class="dura">69 min</td>
+                <td class="note">
 {% assign currentDate = '2024-03-10' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -2913,7 +2913,7 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s0 softmerge" dir="ltr" colspan="5"><strong>
+                <td class="date" dir="ltr" colspan="5"><strong>
                     <div class="softmerge-inner" style="width:698px;left:-1px">Week: 11/20 | Phase: 3/4 | Sub-phase: 1/5
                         (Elevate) | Week's total training time: 242 min</div>
                 </strong></td>
@@ -2924,21 +2924,21 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s2" dir="ltr"><strong>Date</strong></td>
-                <td class="s2" dir="ltr"><strong>Weekday</strong></td>
-                <td class="s2" dir="ltr"><strong>Activity</strong></td>
-                <td class="s2" dir="ltr"><strong>Duration</strong></td>
-                <td class="s2" dir="ltr"><strong>Note</strong></td>
+                <td class="date" dir="ltr"><strong>Date</strong></td>
+                <td class="wday" dir="ltr"><strong>Weekday</strong></td>
+                <td class="type" dir="ltr"><strong>Activity</strong></td>
+                <td class="dura" dir="ltr"><strong>Duration</strong></td>
+                <td class="note" dir="ltr"><strong>Note</strong></td>
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-03-11</td>
-                <td class="s4" dir="ltr">Mon</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-03-11</td>
+                <td class="wday" dir="ltr">Mon</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td>
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-03-11' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -2972,13 +2972,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-03-12</td>
-                <td class="s4" dir="ltr">Tue</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-03-12</td>
+                <td class="wday" dir="ltr">Tue</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td>
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-03-12' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -3012,13 +3012,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-03-13</td>
-                <td class="s4" dir="ltr">Wed</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-03-13</td>
+                <td class="wday" dir="ltr">Wed</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Threshold Session</div>
                 </td>
-                <td class="s4">48 min</td>
-                <td>
+                <td class="dura">48 min</td>
+                <td class="note">
 {% assign currentDate = '2024-03-13' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -3052,13 +3052,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-03-14</td>
-                <td class="s4" dir="ltr">Thu</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-03-14</td>
+                <td class="wday" dir="ltr">Thu</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td>
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-03-14' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -3092,13 +3092,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-03-15</td>
-                <td class="s4" dir="ltr">Fri</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-03-15</td>
+                <td class="wday" dir="ltr">Fri</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Interval Session</div>
                 </td>
-                <td class="s4">36 min</td>
-                <td>
+                <td class="dura">36 min</td>
+                <td class="note">
 {% assign currentDate = '2024-03-15' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -3132,13 +3132,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-03-16</td>
-                <td class="s4" dir="ltr">Sat</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-03-16</td>
+                <td class="wday" dir="ltr">Sat</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Distance Session</div>
                 </td>
-                <td class="s4">48 min</td>
-                <td>
+                <td class="dura">48 min</td>
+                <td class="note">
 {% assign currentDate = '2024-03-16' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -3172,11 +3172,11 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-03-17</td>
-                <td class="s4" dir="ltr">Sun</td>
-                <td class="s4" dir="ltr">Long Session</td>
-                <td class="s4">109 min</td>
-                <td>
+                <td class="date" dir="ltr">2024-03-17</td>
+                <td class="wday" dir="ltr">Sun</td>
+                <td class="type" dir="ltr">Long Session</td>
+                <td class="dura">109 min</td>
+                <td class="note">
 {% assign currentDate = '2024-03-17' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -3210,7 +3210,7 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s0 softmerge" dir="ltr" colspan="5"><strong>
+                <td class="date" dir="ltr" colspan="5"><strong>
                     <div class="softmerge-inner" style="width:698px;left:-1px">Week: 12/20 | Phase: 3/4 | Sub-phase: 2/5
                         (Elevate) | Week's total training time: 266 min</div>
                 </strong></td>
@@ -3221,13 +3221,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-03-18</td>
-                <td class="s4" dir="ltr">Mon</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-03-18</td>
+                <td class="wday" dir="ltr">Mon</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td>
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-03-18' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -3261,13 +3261,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-03-19</td>
-                <td class="s4" dir="ltr">Tue</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-03-19</td>
+                <td class="wday" dir="ltr">Tue</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td>
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-03-19' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -3301,13 +3301,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-03-20</td>
-                <td class="s4" dir="ltr">Wed</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-03-20</td>
+                <td class="wday" dir="ltr">Wed</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Threshold Session</div>
                 </td>
-                <td class="s4">53 min</td>
-                <td>
+                <td class="dura">53 min</td>
+                <td class="note">
 {% assign currentDate = '2024-03-20' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -3341,13 +3341,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-03-21</td>
-                <td class="s4" dir="ltr">Thu</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-03-21</td>
+                <td class="wday" dir="ltr">Thu</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td>
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-03-21' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -3381,13 +3381,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-03-22</td>
-                <td class="s4" dir="ltr">Fri</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-03-22</td>
+                <td class="wday" dir="ltr">Fri</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Interval Session</div>
                 </td>
-                <td class="s4">40 min</td>
-                <td>
+                <td class="dura">40 min</td>
+                <td class="note">
 {% assign currentDate = '2024-03-22' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -3421,13 +3421,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-03-23</td>
-                <td class="s4" dir="ltr">Sat</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-03-23</td>
+                <td class="wday" dir="ltr">Sat</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Distance Session</div>
                 </td>
-                <td class="s4">53 min</td>
-                <td>
+                <td class="dura">53 min</td>
+                <td class="note">
 {% assign currentDate = '2024-03-23' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -3461,11 +3461,11 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-03-24</td>
-                <td class="s4" dir="ltr">Sun</td>
-                <td class="s4" dir="ltr">Long Session</td>
-                <td class="s4">120 min</td>
-                <td>
+                <td class="date" dir="ltr">2024-03-24</td>
+                <td class="wday" dir="ltr">Sun</td>
+                <td class="type" dir="ltr">Long Session</td>
+                <td class="dura">120 min</td>
+                <td class="note">
 {% assign currentDate = '2024-03-24' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -3499,7 +3499,7 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s0 softmerge" dir="ltr" colspan="5"><strong>
+                <td class="date" dir="ltr" colspan="5"><strong>
                     <div class="softmerge-inner" style="width:698px;left:-1px">Week: 13/20 | Phase: 3/4 | Sub-phase: 3/5
                         (Elevate) | Week's total training time: 290 min</div>
                 </strong></td>
@@ -3510,13 +3510,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-03-25</td>
-                <td class="s4" dir="ltr">Mon</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-03-25</td>
+                <td class="wday" dir="ltr">Mon</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td>
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-03-25' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -3550,13 +3550,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-03-26</td>
-                <td class="s4" dir="ltr">Tue</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-03-26</td>
+                <td class="wday" dir="ltr">Tue</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td>
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-03-26' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -3590,13 +3590,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-03-27</td>
-                <td class="s4" dir="ltr">Wed</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-03-27</td>
+                <td class="wday" dir="ltr">Wed</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Threshold Session</div>
                 </td>
-                <td class="s4">58 min</td>
-                <td>
+                <td class="dura">58 min</td>
+                <td class="note">
 {% assign currentDate = '2024-03-27' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -3630,13 +3630,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-03-28</td>
-                <td class="s4" dir="ltr">Thu</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-03-28</td>
+                <td class="wday" dir="ltr">Thu</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-03-28' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -3670,13 +3670,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-03-29</td>
-                <td class="s4" dir="ltr">Fri</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-03-29</td>
+                <td class="wday" dir="ltr">Fri</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Interval Session</div>
                 </td>
-                <td class="s4">44 min</td>
-                <td class="s4">
+                <td class="dura">44 min</td>
+                <td class="note">
 {% assign currentDate = '2024-03-29' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -3710,13 +3710,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-03-30</td>
-                <td class="s4" dir="ltr">Sat</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-03-30</td>
+                <td class="wday" dir="ltr">Sat</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Distance Session</div>
                 </td>
-                <td class="s4">58 min</td>
-                <td class="s4">
+                <td class="dura">58 min</td>
+                <td class="note">
 {% assign currentDate = '2024-03-30' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -3750,11 +3750,11 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-03-31</td>
-                <td class="s4" dir="ltr">Sun</td>
-                <td class="s4" dir="ltr">Long Session</td>
-                <td class="s4">131 min</td>
-                <td class="s4">
+                <td class="date" dir="ltr">2024-03-31</td>
+                <td class="wday" dir="ltr">Sun</td>
+                <td class="type" dir="ltr">Long Session</td>
+                <td class="dura">131 min</td>
+                <td class="note">
 {% assign currentDate = '2024-03-31' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -3788,7 +3788,7 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s0 softmerge" dir="ltr" colspan="5"><strong>
+                <td class="date" dir="ltr" colspan="5"><strong>
                     <div class="softmerge-inner" style="width:698px;left:-1px">Week: 14/20 | Phase: 3/4 | Sub-phase: 4/5
                         (Elevate) | Week's total training time: 315 min</div>
                 </strong></td>
@@ -3799,13 +3799,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-04-01</td>
-                <td class="s4" dir="ltr">Mon</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-04-01</td>
+                <td class="wday" dir="ltr">Mon</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-04-01' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -3839,13 +3839,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-04-02</td>
-                <td class="s4" dir="ltr">Tue</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-04-02</td>
+                <td class="wday" dir="ltr">Tue</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-04-02' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -3879,13 +3879,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-04-03</td>
-                <td class="s4" dir="ltr">Wed</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-04-03</td>
+                <td class="wday" dir="ltr">Wed</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Threshold Session</div>
                 </td>
-                <td class="s4">63 min</td>
-                <td class="s4">
+                <td class="dura">63 min</td>
+                <td class="note">
 {% assign currentDate = '2024-04-03' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -3919,13 +3919,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-04-04</td>
-                <td class="s4" dir="ltr">Thu</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-04-04</td>
+                <td class="wday" dir="ltr">Thu</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-04-04' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -3959,13 +3959,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-04-05</td>
-                <td class="s4" dir="ltr">Fri</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-04-05</td>
+                <td class="wday" dir="ltr">Fri</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Interval Session</div>
                 </td>
-                <td class="s4">47 min</td>
-                <td class="s4">
+                <td class="dura">47 min</td>
+                <td class="note">
 {% assign currentDate = '2024-04-05' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -3999,13 +3999,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-04-06</td>
-                <td class="s4" dir="ltr">Sat</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-04-06</td>
+                <td class="wday" dir="ltr">Sat</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Distance Session</div>
                 </td>
-                <td class="s4">63 min</td>
-                <td class="s4">
+                <td class="dura">63 min</td>
+                <td class="note">
 {% assign currentDate = '2024-04-06' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -4039,11 +4039,11 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-04-07</td>
-                <td class="s4" dir="ltr">Sun</td>
-                <td class="s4" dir="ltr">Long Session</td>
-                <td class="s4">142 min</td>
-                <td class="s4">
+                <td class="date" dir="ltr">2024-04-07</td>
+                <td class="wday" dir="ltr">Sun</td>
+                <td class="type" dir="ltr">Long Session</td>
+                <td class="dura">142 min</td>
+                <td class="note">
 {% assign currentDate = '2024-04-07' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -4077,7 +4077,7 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s0 softmerge" dir="ltr" colspan="5"><strong>
+                <td class="date" dir="ltr" colspan="5"><strong>
                     <div class="softmerge-inner" style="width:698px;left:-1px">Week: 15/20 | Phase: 3/4 | Sub-phase: 5/5
                         (Rest) | Week's total training time: 169 min</div>
                 </strong></td>
@@ -4088,13 +4088,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-04-08</td>
-                <td class="s4" dir="ltr">Mon</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-04-08</td>
+                <td class="wday" dir="ltr">Mon</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-04-08' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -4128,13 +4128,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-04-09</td>
-                <td class="s4" dir="ltr">Tue</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-04-09</td>
+                <td class="wday" dir="ltr">Tue</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-04-09' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -4168,13 +4168,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-04-10</td>
-                <td class="s4" dir="ltr">Wed</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-04-10</td>
+                <td class="wday" dir="ltr">Wed</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Threshold Session</div>
                 </td>
-                <td class="s4">34 min</td>
-                <td class="s4">
+                <td class="dura">34 min</td>
+                <td class="note">
 {% assign currentDate = '2024-04-10' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -4208,13 +4208,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-04-11</td>
-                <td class="s4" dir="ltr">Thu</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-04-11</td>
+                <td class="wday" dir="ltr">Thu</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-04-11' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -4248,13 +4248,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-04-12</td>
-                <td class="s4" dir="ltr">Fri</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-04-12</td>
+                <td class="wday" dir="ltr">Fri</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Interval Session</div>
                 </td>
-                <td class="s4">25 min</td>
-                <td class="s4">
+                <td class="dura">25 min</td>
+                <td class="note">
 {% assign currentDate = '2024-04-12' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -4288,13 +4288,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-04-13</td>
-                <td class="s4" dir="ltr">Sat</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-04-13</td>
+                <td class="wday" dir="ltr">Sat</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Distance Session</div>
                 </td>
-                <td class="s4">34 min</td>
-                <td class="s4">
+                <td class="dura">34 min</td>
+                <td class="note">
 {% assign currentDate = '2024-04-13' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -4328,11 +4328,11 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-04-14</td>
-                <td class="s4" dir="ltr">Sun</td>
-                <td class="s4" dir="ltr">Long Session</td>
-                <td class="s4">76 min</td>
-                <td class="s4">
+                <td class="date" dir="ltr">2024-04-14</td>
+                <td class="wday" dir="ltr">Sun</td>
+                <td class="type" dir="ltr">Long Session</td>
+                <td class="dura">76 min</td>
+                <td class="note">
 {% assign currentDate = '2024-04-14' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -4366,7 +4366,7 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s0 softmerge" dir="ltr" colspan="5"><strong>
+                <td class="date" dir="ltr" colspan="5"><strong>
                     <div class="softmerge-inner" style="width:698px;left:-1px">Week: 16/20 | Phase: 4/4 | Sub-phase: 1/5
                         (Elevate) | Week's total training time: 266 min</div>
                 </strong></td>
@@ -4377,21 +4377,21 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s2" dir="ltr"><strong>Date</strong></td>
-                <td class="s2" dir="ltr"><strong>Weekday</strong></td>
-                <td class="s2" dir="ltr"><strong>Activity</strong></td>
-                <td class="s2" dir="ltr"><strong>Duration</strong></td>
-                <td class="s2" dir="ltr"><strong>Note</strong></td>
+                <td class="date" dir="ltr"><strong>Date</strong></td>
+                <td class="wday" dir="ltr"><strong>Weekday</strong></td>
+                <td class="type" dir="ltr"><strong>Activity</strong></td>
+                <td class="dura" dir="ltr"><strong>Duration</strong></td>
+                <td class="note" dir="ltr"><strong>Note</strong></td>
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-04-15</td>
-                <td class="s4" dir="ltr">Mon</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-04-15</td>
+                <td class="wday" dir="ltr">Mon</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-04-15' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -4425,13 +4425,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-04-16</td>
-                <td class="s4" dir="ltr">Tue</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-04-16</td>
+                <td class="wday" dir="ltr">Tue</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-04-16' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -4465,13 +4465,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-04-17</td>
-                <td class="s4" dir="ltr">Wed</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-04-17</td>
+                <td class="wday" dir="ltr">Wed</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Threshold Session</div>
                 </td>
-                <td class="s4">53 min</td>
-                <td class="s4">
+                <td class="dura">53 min</td>
+                <td class="note">
 {% assign currentDate = '2024-04-17' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -4505,13 +4505,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-04-18</td>
-                <td class="s4" dir="ltr">Thu</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-04-18</td>
+                <td class="wday" dir="ltr">Thu</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-04-18' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -4545,13 +4545,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-04-19</td>
-                <td class="s4" dir="ltr">Fri</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-04-19</td>
+                <td class="wday" dir="ltr">Fri</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Interval Session</div>
                 </td>
-                <td class="s4">40 min</td>
-                <td class="s4">
+                <td class="dura">40 min</td>
+                <td class="note">
 {% assign currentDate = '2024-04-19' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -4585,13 +4585,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-04-20</td>
-                <td class="s4" dir="ltr">Sat</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-04-20</td>
+                <td class="wday" dir="ltr">Sat</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Distance Session</div>
                 </td>
-                <td class="s4">53 min</td>
-                <td class="s4">
+                <td class="dura">53 min</td>
+                <td class="note">
 {% assign currentDate = '2024-04-20' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -4625,11 +4625,11 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-04-21</td>
-                <td class="s4" dir="ltr">Sun</td>
-                <td class="s4" dir="ltr">Long Session</td>
-                <td class="s4">120 min</td>
-                <td class="s4">
+                <td class="date" dir="ltr">2024-04-21</td>
+                <td class="wday" dir="ltr">Sun</td>
+                <td class="type" dir="ltr">Long Session</td>
+                <td class="dura">120 min</td>
+                <td class="note">
 {% assign currentDate = '2024-04-21' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -4663,7 +4663,7 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s0 softmerge" dir="ltr" colspan="5"><strong>
+                <td class="date" dir="ltr" colspan="5"><strong>
                     <div class="softmerge-inner" style="width:698px;left:-1px">Week: 17/20 | Phase: 4/4 | Sub-phase: 2/5
                         (Elevate) | Week's total training time: 293 min</div>
                 </strong></td>
@@ -4674,13 +4674,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-04-22</td>
-                <td class="s4" dir="ltr">Mon</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-04-22</td>
+                <td class="wday" dir="ltr">Mon</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-04-22' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -4714,13 +4714,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-04-23</td>
-                <td class="s4" dir="ltr">Tue</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-04-23</td>
+                <td class="wday" dir="ltr">Tue</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-04-23' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -4754,13 +4754,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-04-24</td>
-                <td class="s4" dir="ltr">Wed</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-04-24</td>
+                <td class="wday" dir="ltr">Wed</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Threshold Session</div>
                 </td>
-                <td class="s4">59 min</td>
-                <td class="s4">
+                <td class="dura">59 min</td>
+                <td class="note">
 {% assign currentDate = '2024-04-24' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -4794,13 +4794,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-04-25</td>
-                <td class="s4" dir="ltr">Thu</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-04-25</td>
+                <td class="wday" dir="ltr">Thu</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-04-25' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -4834,13 +4834,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-04-26</td>
-                <td class="s4" dir="ltr">Fri</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-04-26</td>
+                <td class="wday" dir="ltr">Fri</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Interval Session</div>
                 </td>
-                <td class="s4">44 min</td>
-                <td class="s4">
+                <td class="dura">44 min</td>
+                <td class="note">
 {% assign currentDate = '2024-04-26' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -4874,13 +4874,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-04-27</td>
-                <td class="s4" dir="ltr">Sat</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-04-27</td>
+                <td class="wday" dir="ltr">Sat</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Distance Session</div>
                 </td>
-                <td class="s4">59 min</td>
-                <td class="s4">
+                <td class="dura">59 min</td>
+                <td class="note">
 {% assign currentDate = '2024-04-27' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -4914,11 +4914,11 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-04-28</td>
-                <td class="s4" dir="ltr">Sun</td>
-                <td class="s4" dir="ltr">Long Session</td>
-                <td class="s4">132 min</td>
-                <td class="s4">
+                <td class="date" dir="ltr">2024-04-28</td>
+                <td class="wday" dir="ltr">Sun</td>
+                <td class="type" dir="ltr">Long Session</td>
+                <td class="dura">132 min</td>
+                <td class="note">
 {% assign currentDate = '2024-04-28' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -4952,7 +4952,7 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s0 softmerge" dir="ltr" colspan="5"><strong>
+                <td class="date" dir="ltr" colspan="5"><strong>
                     <div class="softmerge-inner" style="width:698px;left:-1px">Week: 18/20 | Phase: 4/4 | Sub-phase: 3/5
                         (Elevate) | Week's total training time: 319 min</div>
                 </strong></td>
@@ -4963,13 +4963,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-04-29</td>
-                <td class="s4" dir="ltr">Mon</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-04-29</td>
+                <td class="wday" dir="ltr">Mon</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-04-29' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -5003,13 +5003,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-04-30</td>
-                <td class="s4" dir="ltr">Tue</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-04-30</td>
+                <td class="wday" dir="ltr">Tue</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-04-30' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -5043,13 +5043,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-05-01</td>
-                <td class="s4" dir="ltr">Wed</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-05-01</td>
+                <td class="wday" dir="ltr">Wed</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Threshold Session</div>
                 </td>
-                <td class="s4">64 min</td>
-                <td class="s4">
+                <td class="dura">64 min</td>
+                <td class="note">
 {% assign currentDate = '2024-05-01' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -5083,13 +5083,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-05-02</td>
-                <td class="s4" dir="ltr">Thu</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-05-02</td>
+                <td class="wday" dir="ltr">Thu</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-05-02' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -5123,13 +5123,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-05-03</td>
-                <td class="s4" dir="ltr">Fri</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-05-03</td>
+                <td class="wday" dir="ltr">Fri</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Interval Session</div>
                 </td>
-                <td class="s4">48 min</td>
-                <td class="s4">
+                <td class="dura">48 min</td>
+                <td class="note">
 {% assign currentDate = '2024-05-03' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -5163,13 +5163,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-05-04</td>
-                <td class="s4" dir="ltr">Sat</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-05-04</td>
+                <td class="wday" dir="ltr">Sat</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Distance Session</div>
                 </td>
-                <td class="s4">64 min</td>
-                <td class="s4">
+                <td class="dura">64 min</td>
+                <td class="note">
 {% assign currentDate = '2024-05-04' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -5203,11 +5203,11 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-05-05</td>
-                <td class="s4" dir="ltr">Sun</td>
-                <td class="s4" dir="ltr">Long Session</td>
-                <td class="s4">144 min</td>
-                <td class="s4">
+                <td class="date" dir="ltr">2024-05-05</td>
+                <td class="wday" dir="ltr">Sun</td>
+                <td class="type" dir="ltr">Long Session</td>
+                <td class="dura">144 min</td>
+                <td class="note">
 {% assign currentDate = '2024-05-05' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -5241,7 +5241,7 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s0 softmerge" dir="ltr" colspan="5"><strong>
+                <td class="date" dir="ltr" colspan="5"><strong>
                     <div class="softmerge-inner" style="width:698px;left:-1px">Week: 19/20 | Phase: 4/4 | Sub-phase: 4/5
                         (Elevate) | Week's total training time: 346 min</div>
                 </strong></td>
@@ -5252,13 +5252,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-05-06</td>
-                <td class="s4" dir="ltr">Mon</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-05-06</td>
+                <td class="wday" dir="ltr">Mon</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-05-06' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -5292,13 +5292,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-05-07</td>
-                <td class="s4" dir="ltr">Tue</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-05-07</td>
+                <td class="wday" dir="ltr">Tue</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-05-07' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -5332,13 +5332,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-05-08</td>
-                <td class="s4" dir="ltr">Wed</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-05-08</td>
+                <td class="wday" dir="ltr">Wed</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Threshold Session</div>
                 </td>
-                <td class="s4">69 min</td>
-                <td class="s4">
+                <td class="dura">69 min</td>
+                <td class="note">
 {% assign currentDate = '2024-05-08' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -5372,13 +5372,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-05-09</td>
-                <td class="s4" dir="ltr">Thu</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-05-09</td>
+                <td class="wday" dir="ltr">Thu</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-05-09' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -5412,13 +5412,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-05-10</td>
-                <td class="s4" dir="ltr">Fri</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-05-10</td>
+                <td class="wday" dir="ltr">Fri</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Interval Session</div>
                 </td>
-                <td class="s4">52 min</td>
-                <td class="s4">
+                <td class="dura">52 min</td>
+                <td class="note">
 {% assign currentDate = '2024-05-10' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -5452,13 +5452,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-05-11</td>
-                <td class="s4" dir="ltr">Sat</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-05-11</td>
+                <td class="wday" dir="ltr">Sat</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Distance Session</div>
                 </td>
-                <td class="s4">69 min</td>
-                <td class="s4">
+                <td class="dura">69 min</td>
+                <td class="note">
 {% assign currentDate = '2024-05-11' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -5492,11 +5492,11 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-05-12</td>
-                <td class="s4" dir="ltr">Sun</td>
-                <td class="s4" dir="ltr">Long Session</td>
-                <td class="s4">156 min</td>
-                <td class="s4">
+                <td class="date" dir="ltr">2024-05-12</td>
+                <td class="wday" dir="ltr">Sun</td>
+                <td class="type" dir="ltr">Long Session</td>
+                <td class="dura">156 min</td>
+                <td class="note">
 {% assign currentDate = '2024-05-12' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -5530,7 +5530,7 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s0 softmerge" dir="ltr" colspan="5"><strong>
+                <td class="date" dir="ltr" colspan="5"><strong>
                     <div class="softmerge-inner" style="width:698px;left:-1px">Week: 20/20 | Phase: 4/4 | Sub-phase: 5/5
                         (Rest) | Week's total training time: 186 min</div>
                 </strong></td>
@@ -5541,13 +5541,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-05-13</td>
-                <td class="s4" dir="ltr">Mon</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-05-13</td>
+                <td class="wday" dir="ltr">Mon</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-05-13' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -5581,13 +5581,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-05-14</td>
-                <td class="s4" dir="ltr">Tue</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-05-14</td>
+                <td class="wday" dir="ltr">Tue</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-05-14' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -5621,13 +5621,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-05-15</td>
-                <td class="s4" dir="ltr">Wed</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-05-15</td>
+                <td class="wday" dir="ltr">Wed</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Threshold Session</div>
                 </td>
-                <td class="s4">37 min</td>
-                <td class="s4">
+                <td class="dura">37 min</td>
+                <td class="note">
 {% assign currentDate = '2024-05-15' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -5661,13 +5661,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-05-16</td>
-                <td class="s4" dir="ltr">Thu</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-05-16</td>
+                <td class="wday" dir="ltr">Thu</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Bike Commuting</div>
                 </td>
-                <td class="s4" dir="ltr">60 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">60 min</td>
+                <td class="note">
 {% assign currentDate = '2024-05-16' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -5701,13 +5701,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-05-17</td>
-                <td class="s4" dir="ltr">Fri</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-05-17</td>
+                <td class="wday" dir="ltr">Fri</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">Interval Session</div>
                 </td>
-                <td class="s4">28 min</td>
-                <td class="s4">
+                <td class="dura">28 min</td>
+                <td class="note">
 {% assign currentDate = '2024-05-17' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
@@ -5741,13 +5741,13 @@
             </tr>
             <tr style="height: 19px">
                 
-                <td class="s3" dir="ltr">2024-05-18</td>
-                <td class="s4" dir="ltr">Sat</td>
-                <td class="s4 softmerge" dir="ltr">
+                <td class="date" dir="ltr">2024-05-18</td>
+                <td class="wday" dir="ltr">Sat</td>
+                <td class="type" dir="ltr">
                     <div class="softmerge-inner" style="width:97px;left:-1px">GÖTEBORGSVARVET 2024</div>
                 </td>
-                <td class="s4" dir="ltr">75 min</td>
-                <td class="s4">
+                <td class="dura" dir="ltr">75 min</td>
+                <td class="note">
 {% assign currentDate = '2024-05-18' %}
 {% for entry in site.data.log %}
   {% if entry.date == currentDate %}
