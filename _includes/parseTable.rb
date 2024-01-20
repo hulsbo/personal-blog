@@ -124,5 +124,24 @@ doc.css('tr').each do |row|
     end
   end
 
+    # ADDING CLASS ATTRIBUTES
+    ## ADDING WEEKDAY
+    # Select all <tr> elements
+    doc.xpath('//tr').each do |tr|
+        # Within each <tr>, find the second <td>
+        first_td = tr.xpath('td[1]')
+        second_td = tr.xpath('td[2]')
+        third_td = tr.xpath('td[3]')
+        forth_td = tr.xpath('td[4]')
+        fifth_td = tr.xpath('td[5]')
+
+        # Replace the class attribute with 'weekday' for the second <td>
+        first_td.first.set_attribute('class', 'date') unless first_td.empty?
+        second_td.first.set_attribute('class', 'wday') unless second_td.empty?
+        third_td.first.set_attribute('class', 'type') unless third_td.empty?
+        forth_td.first.set_attribute('class', 'dura') unless forth_td.empty?
+        fifth_td.first.set_attribute('class', 'note') unless fifth_td.empty?
+  end
+
 # Save the modified table to a new file
 File.open('modified_table.html', 'w') { |file| file.write(table.to_s) }

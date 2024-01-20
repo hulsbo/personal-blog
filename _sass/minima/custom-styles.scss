@@ -1,2 +1,28 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+// access columns by the following classes:
+// 'date'
+// 'wday'
+// 'type'
+// 'dura'
+// 'note'
+
+td.wday, td.dura {
+    text-align: center;
+    width: auto;
+  }
+
+  td.date {
+    width: 5rem;
+    text-align: center;
+  }
+
+  td.wday, td.type {
+    text-align: center;
+    width: auto;
+  }
+
+  table td {
+    padding: 8px
+  }
