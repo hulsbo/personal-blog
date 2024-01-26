@@ -30,4 +30,4 @@ Thanks for checking in.
 
 **My current goal is to finish the race below 01:25:00.**
 
-Running Regards. //Oskar
+Gotta run! //Oskar
