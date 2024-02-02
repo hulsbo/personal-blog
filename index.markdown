@@ -4,7 +4,7 @@
 layout: home
 ---
 
-Hello there - and welcome to Stride Reborn!
+Hello there - and welcome to The Incliner!
 
 My name is Oskar Huledal and I have a goal this spring of running Göteborgsvarvet 2024. I am new to running races but I love to train and improve.
 
