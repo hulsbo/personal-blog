@@ -112,32 +112,32 @@
   content: "Ordinary commuting day"
   distance:
   ahr:
-  highlight:
+  highlight: 
 - date: "2024-02-07"
-  content:
+  content: "Ordinary commuting day"
   distance:
   ahr:
   highlight:
 - date: "2024-02-08"
-  content:
-  distance:
-  ahr:
-  highlight:
+  content: "Did a interval session starting at 15.5 km/h, 16 km/h and then 16.5 km/h all at incline 1 degree. 15.5 km/h felt almost more intimidating than 16 km/h. 16.5 km/h was tough but solved it by removing glasses and just focusing on maintaining a good technique. Then suddenly I had passed 30 min."
+  distance: "7.5 km"
+  ahr: "161"
+  highlight: "16.5 km/h is a new record speed, even though only being held for 7 min, it feels good to have been able to incorporate it into an interval training session with success."
 - date: "2024-02-09"
-  content:
-  distance:
-  ahr:
-  highlight:
+  content: "Threshold training today. Except warmup I ran at 14.6 km/h with 1 degree incline for the whole session."
+  distance: "10.5 km"
+  ahr: "161"
+  highlight: "BPM was pretty consistant. Mean cadence of 182 quite good especially in relation to speed."
 - date: "2024-02-10"
-  content:
-  distance:
-  ahr:
-  highlight:
+  content: "Held 13.5 km/ h then soon increased to 14 km/h since goal was to have an average hreat rate at about 150 BPM."
+  distance: "10 km"
+  ahr: "153"
+  highlight: "Much lower AHR than day before, but similar performance. Regarding this, running the half-marathon below 01:30:00 seems quite attainble now. However my AHR for the last kilometer was close to 160."
 - date: "2024-02-11"
-  content:
-  distance:
-  ahr:
-  highlight:
+  content: "Long run with different inclines every 10 minutes. After 30 min I did 5 degrees at 12 km/h, then 8 degrees at 10 km/h, then 12 degrees at 9 km/h. Then back again to 8 degrees finishing there, deciding to spare my knees any flat sprint in the end, which was the original plan but if body says no there's no shame to keep run with incline."
+  distance: "18.5 km (but not quite sure since machine resetted asking me to cool down when there were 2 minutes left.)"
+  ahr: "152"
+  highlight: "Really stable BPM throughout the training. This despite not going easier at the end (8 degreees and 10 km/h)."
 - date: "2024-02-12"
   content:
   distance:
