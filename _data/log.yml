@@ -69,22 +69,22 @@
   ahr:
   highlight:
 - date: "2024-01-29"
-  content: "Ordinary commuting day"
+  content: "OCD (ordinary commuting day)"
   distance:
   ahr:
   highlight:
 - date: "2024-01-30"
-  content: "DGF"
+  content: "DGF (no training)"
   distance: 
   ahr:
   highlight:
 - date: "2024-01-31"
-  content: "Ordinary commuting day"
+  content: "OCD"
   distance:
   ahr:
   highlight:
 - date: "2024-02-01"
-  content: "Ordinary commuting day"
+  content: "OCD"
   distance:
   ahr:
   highlight:
@@ -104,17 +104,17 @@
   ahr: "145"
   highlight: "Sunny day; wind in the back; meeting smiles; a run through my kind of city; broad tracks in the forest; sun rays bouncing on icy lakes; a cozy coffee hut serving well deserved good stuff. Who could complain."
 - date: "2024-02-05"
-  content: "Ordinary commuting day"
+  content: "OCD"
   distance:
   ahr:
   highlight:
 - date: "2024-02-06"
-  content: "Ordinary commuting day"
+  content: "OCD"
   distance:
   ahr:
   highlight: 
 - date: "2024-02-07"
-  content: "Ordinary commuting day"
+  content: "OCD"
   distance:
   ahr:
   highlight:
@@ -139,25 +139,25 @@
   ahr: "152"
   highlight: "Really stable BPM throughout the training. The graph is flat. This despite not going easier at the end (8 degreees and 10 km/h). Builds confidence."
 - date: "2024-02-12"
-  content: "ODC (Ordinary commuting day)"
+  content: "Bad weather. Took a full rest day"
   distance:
   ahr:
   highlight:
 - date: "2024-02-13"
-  content: "ODC (Ordinary commuting day)"
+  content: "ECD (Extraordinary commuting day)"
   distance:
   ahr:
   highlight:
 - date: "2024-02-14"
-  content: "ODC (Ordinary commuting day)"
+  content: "ECD"
   distance:
   ahr:
   highlight:
 - date: "2024-02-15"
-  content:
-  distance:
-  ahr:
-  highlight:
+  content: "Always 1 degree incline. 10 min warm-up. Then 14.4 km/h first 7 min, then 15 km/h for the remaining 40 min. Finish with 5 min cool-down."
+  distance: "14.1 km"
+  ahr: "Excluding warm-ups around 160."
+  highlight: "Had a little cramp in my left leg but overcome it. Then 15 km/h felt great until finish, almost like a cruising speed. Think a half marathon averaging 15 km/h is not too far away from being possible. That would result in a finish time of 01:24:24 surpassing my target time with a good margin."
 - date: "2024-02-16"
   content:
   distance:
