@@ -6,9 +6,9 @@ layout: home
 
 Hello there - and welcome to The Incliner!
 
-My name is Oskar Huledal and I have a goal this spring of running Göteborgsvarvet 2024. I am new to running races but I love to train and improve.
+My name is Oskar Huledal and I have a goal this spring of running Göteborgsvarvet 2024. I am new to running races but I love to set ambitious goals and write about my progress towards them - hence the existance of this blog.
 
-This new race goal has made me ambitious in creating a [running plan](/running-plan.markdown) up until the race the 18:th of May. I update this plan with daily logs about how my training progresses so make sure to come back again for more content.
+To make my efforts more deliberate and effective I have created a [running plan](/running-plan.markdown) for all training I intend to do before the race the 18:th of May. I update this plan with daily logs about how my training progresses so make sure to come back again for more content.
 
 Thanks for checking in.
 
@@ -24,5 +24,5 @@ Thanks for checking in.
 
 **My current goal is to finish the race below 01:25:00.**
 
-Gotta run, 
+Gotta run!
 Oskar
