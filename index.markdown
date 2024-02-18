@@ -10,6 +10,8 @@ My name is Oskar Huledal and I have a goal this spring of running Göteborgsvarv
 
 To make my efforts more deliberate and effective I have created a [running plan](/running-plan.markdown) for all training I intend to do before the race the 18:th of May. I update this plan with daily logs about how my training progresses so make sure to come back again for more content.
 
+**My current goal is to finish the race below 01:25:00.**
+
 ***Notable records (will be updated when new PBs have been made)***
 
 | Date       | Achievement                 | Time       | Location   |
@@ -18,9 +20,6 @@ To make my efforts more deliberate and effective I have created a [running plan]
 | 2023-12-09 | New PB 5k                   | 19:20      | Treadmill  |
 | 2023-12-30 | New PB 10k                  | 37:50      | Treadmill  |
 | 2024-01-06 | Premiere Half-Marathon      | 01:34:00   | Treadmill  |
-
-
-**My current goal is to finish the race below 01:25:00.**
 
 Gotta run!
 
