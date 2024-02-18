@@ -12,7 +12,7 @@ To make my efforts more deliberate and effective I have created a [running plan]
 
 Thanks for checking in.
 
-***Some notable records...***
+***Some notable records (will be updated when new PBs have been made)***
 
 | Date       | Achievement                 | Time       | Location   |
 |------------|-----------------------------|------------|------------|
