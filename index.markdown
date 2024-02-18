@@ -10,8 +10,6 @@ My name is Oskar Huledal and I have a goal this spring of running Göteborgsvarv
 
 To make my efforts more deliberate and effective I have created a [running plan](/running-plan.markdown) for all training I intend to do before the race the 18:th of May. I update this plan with daily logs about how my training progresses so make sure to come back again for more content.
 
-Thanks for checking in.
-
 ***Some notable records (will be updated when new PBs have been made)***
 
 | Date       | Achievement                 | Time       | Location   |
