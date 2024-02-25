@@ -133,7 +133,7 @@ doc.css('tr').each do |row|
         second_td = tr.xpath('td[2]')
         third_td = tr.xpath('td[3]')
         forth_td = tr.xpath('td[4]')
-        fifth_td = tr.xpath('td[5]')
+        fifth_td = tr.xpath('td[5][child::strong]')
 
         # Replace the class attributes
         first_td.first.set_attribute('class', 'date') unless first_td.empty?
