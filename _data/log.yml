@@ -64,7 +64,7 @@
   ahr: "160"
   highlight: "Not happy with my stride rate. Thought it was perhaps due to the darkness - taking small steps felt dangeroes as the uneven ground might make me trip and fall. The 4.15 min / km was just okay pace, but given the circumstances I conclude to be content."
 - date: "2024-01-28"
-  content: "DGF"
+  content: "DGF (no training)"
   distance:
   ahr:
   highlight:
@@ -74,7 +74,7 @@
   ahr:
   highlight:
 - date: "2024-01-30"
-  content: "DGF (no training)"
+  content: "DGF"
   distance: 
   ahr:
   highlight:
@@ -139,7 +139,7 @@
   ahr: "152"
   highlight: "Really stable BPM throughout the training. The graph is flat. This despite not going easier at the end (8 degreees and 10 km/h). Builds confidence."
 - date: "2024-02-12"
-  content: "Bad weather. Took a full rest day"
+  content: "Bad weather. Took a full rest day."
   distance:
   ahr:
   highlight:
@@ -179,29 +179,34 @@
   ahr: "N/A"
   highlight: "Finding these from A to B sprint runs really pleasant to do. Hoping to exchange my bike commuting with them, if I can find a good solution running with a backpack with my stuff for work. But at long session speed one-way (there or back home) shouldn't be too much of a problem."
 - date: "2024-02-20"
-  content:
+  content: "Ran to work with a 5 kg backpack. Went surprisingly fast (too fast for long run) with an average pace of 4:40 min/km but felt great all the way. I really would like to do this more often starting working days by a run TO work."
+  distance: "13.3 km"
+  ahr: "N/A"
+  highlight: "Proved I needed a better backpack for commute running, beginning that search."
+- date: "2024-02-21"
+  content: "OCD (bike)"
   distance:
   ahr:
   highlight:
 - date: "2024-02-22"
-  content:
+  content: "OCD (bike)"
   distance:
   ahr:
   highlight:
 - date: "2024-02-23"
-  content:
+  content: "Bad weather. Took a full rest day."
   distance:
   ahr:
   highlight:
 - date: "2024-02-24"
-  content:
-  distance:
-  ahr:
-  highlight:
+  content: "Long run of 135 min to Kungälv. Easy pace of 6:30 min/km including breaks, stopped occasionally to take photos and to find my way. Route was not perfect as I had to run on a 70 km/h road for 15 min at the end, but exciting to see Hisingen's 'heart' Djupedal."
+  distance: "22.6 km"
+  ahr: "127 BPM (including all breaks)"
+  highlight: "The nice scenery along the way. A sense of adventure. Pizza."
 - date: "2024-02-25"
-  content:
-  distance:
-  ahr:
+  content: "Same as last week. I will not increase speed until I feel comfortable enough with 16.5 km/h."
+  distance: 
+  ahr: 
   highlight:
 - date: "2024-02-26"
   content:
@@ -219,8 +224,37 @@
   ahr:
   highlight:
 - date: "2024-02-29"
+  content: 
+  distance:
+  ahr:
+  highlight:
+- date: "2024-03-01"
   content:
   distance:
   ahr:
   highlight:
-
+- date: "2024-03-02"
+  content:
+  distance:
+  ahr:
+  highlight:
+- date: "2024-03-03"
+  content:
+  distance:
+  ahr:
+  highlight:
+- date: "2024-03-04"
+  content:
+  distance:
+  ahr:
+  highlight:
+- date: "2024-03-05"
+  content:
+  distance:
+  ahr:
+  highlight:
+- date: "2024-03-06"
+  content:
+  distance:
+  ahr:
+  highlight:
