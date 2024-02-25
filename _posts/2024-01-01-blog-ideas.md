@@ -17,3 +17,7 @@ Perhaps a transform that makes the letters look like printed on an open book.
 # Issues
 
 {{ post.date | date: '%Y-%m-%d' }} always gives 2024-01-04
+
+
+Titles merging when exporting to html from google sheets.
+Did not hwoever occur when I did a normal download without anything selected in the sheets. Solved?
