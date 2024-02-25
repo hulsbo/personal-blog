@@ -8,17 +8,12 @@
 // 'dura'
 // 'note'
 
-td.wday, td.dura {
-    text-align: center;
-    width: auto;
-  }
-
   td.date {
     width: 5rem;
     text-align: center;
   }
 
-  td.wday, td.type {
+  td.wday, td.type, td.dura, td.note {
     text-align: center;
     width: auto;
   }
