@@ -128,14 +128,14 @@ doc.css('tr').each do |row|
     ## ADDING WEEKDAY
     # Select all <tr> elements
     doc.xpath('//tr').each do |tr|
-        # Within each <tr>, find the second <td>
         first_td = tr.xpath('td[1]')
+        # Within each <tr>, find each <td>
         second_td = tr.xpath('td[2]')
         third_td = tr.xpath('td[3]')
         forth_td = tr.xpath('td[4]')
         fifth_td = tr.xpath('td[5]')
 
-        # Replace the class attribute with 'weekday' for the second <td>
+        # Replace the class attributes
         first_td.first.set_attribute('class', 'date') unless first_td.empty?
         second_td.first.set_attribute('class', 'wday') unless second_td.empty?
         third_td.first.set_attribute('class', 'type') unless third_td.empty?
