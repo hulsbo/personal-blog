@@ -105,7 +105,6 @@ doc.css('tr').each do |row|
                     "        {% endfor %}\n" +
                     "      {% if foundPost %}\n" +
                     "        <p><a href='{{ foundPost.url }}'>Read today's post: {{ foundPost.title }}</a></p>\n" +
-                    "        <p>{{ foundPost.date | date: '%Y-%m-%d' }}<p>" +
                     "      {% endif %}\n"
 
 
