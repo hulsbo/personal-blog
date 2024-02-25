@@ -21,3 +21,11 @@
   table td {
     padding: 8px
   }
+
+
+  /*
+This 'right' value works apparently to center header
+  */
+  td.s0.softmerge {
+    text-align: right;
+  }
