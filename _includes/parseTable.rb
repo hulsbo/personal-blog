@@ -128,8 +128,8 @@ doc.css('tr').each do |row|
     ## ADDING WEEKDAY
     # Select all <tr> elements
     doc.xpath('//tr').each do |tr|
-        first_td = tr.xpath('td[1]')
         # Within each <tr>, find each <td>
+        first_td = tr.xpath('td[1][not(@class="s0 softmerge")]')
         second_td = tr.xpath('td[2]')
         third_td = tr.xpath('td[3]')
         forth_td = tr.xpath('td[4]')
