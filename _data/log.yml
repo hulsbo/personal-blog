@@ -70,7 +70,7 @@
   highlight:
 - date: "2024-01-29"
   content: "OCD (ordinary commuting day)"
-  distance:
+  distance: "12.45 km"
   ahr:
   highlight:
 - date: "2024-01-30"
@@ -80,12 +80,12 @@
   highlight:
 - date: "2024-01-31"
   content: "OCD"
-  distance:
+  distance: "12.45 km"
   ahr:
   highlight:
 - date: "2024-02-01"
   content: "OCD"
-  distance:
+  distance: "12.45 km"
   ahr:
   highlight:
 - date: "2024-02-02"
@@ -105,18 +105,18 @@
   highlight: "Sunny day; wind in the back; meeting smiles; a run through my kind of city; broad tracks in the forest; sun rays bouncing on icy lakes; a cozy coffee hut serving well deserved good stuff. Who could complain."
 - date: "2024-02-05"
   content: "OCD"
-  distance:
+  distance: "12.45 km"
   ahr:
   highlight:
 - date: "2024-02-06"
   content: "OCD"
-  distance:
+  distance: "12.45 km"
   ahr:
   highlight: 
 - date: "2024-02-07"
   content: "OCD"
-  distance:
-  ahr:
+  distance: "12.45 km"
+  ahr: 
   highlight:
 - date: "2024-02-08"
   content: "Did an interval session starting at 15.5 km/h, 16 km/h and then 16.5 km/h all at incline 1 degree. 15.5 km/h felt almost more intimidating than 16 km/h. 16.5 km/h was tough but solved it by removing glasses and just focusing on maintaining a good technique. Then suddenly I had passed 30 min."
@@ -185,12 +185,12 @@
   highlight: "Proved I needed a better backpack for commute running, beginning that search."
 - date: "2024-02-21"
   content: "OCD (bike)"
-  distance:
+  distance: "12.45 km"
   ahr:
   highlight:
 - date: "2024-02-22"
   content: "OCD (bike)"
-  distance:
+  distance: "12.45 km"
   ahr:
   highlight:
 - date: "2024-02-23"
@@ -210,34 +210,34 @@
   highlight: "Happy to make progress in this speed! Might at this pace be aiming for a new PB for the 5K at next threshold session."
 - date: "2024-02-26"
   content: "OCD (bike)"
-  distance:
+  distance: "12.45 km"
   ahr:
   highlight:
 - date: "2024-02-27"
-  content:
-  distance:
+  content: "OCD (bike)."
+  distance: "12.45 km"
   ahr:
-  highlight:
+  highlight: "Considering again, three times a week running to work (12 km) is a good starting point at the moment being."
 - date: "2024-02-28"
-  content:
-  distance:
-  ahr:
-  highlight:
+  content: "OCD (run). Rainy and almost negative degrees with a headwind. Shit weather in other words, but I made it to work with a quite preserved mood. I felt lucky my laptop did not get too soaked being deceitfully protected by my new running backpack from SILVA. Too cheap of a product."
+  distance: "12.45 km"
+  ahr: "145"
+  highlight: "Despite the lousy weather the run did keep my mood up."
 - date: "2024-02-29"
-  content: 
-  distance:
-  ahr:
-  highlight:
+  content: "Workday and weather was not good for commute run. Body and legs felt quite sore from yesterday's commute run too. Incline is my friend however. Did instead 50 min in the gym with 9 km/h / 9 deg incline. Increased to 10 km/h after half the time. HR was a bit too high in the end at 160."
+  distance: "Horizontal: 8 km. Vertical 0.7 km."
+  ahr: "152"
+  highlight: "Incline is my body's savior and best friend, a guardian for my injury-free condition, combatting my competitive mind's aspiration for fast progress by the use of degrees, many degrees."
 - date: "2024-03-01"
-  content:
-  distance:
-  ahr:
-  highlight:
+  content: "Same recipe as yesterday but I increased incline to 12 degrees at half-time while decreasing to 7 km/h. Body felt a little stronger this day."
+  distance: "Horizontal 6.5 km. Vertical unknown but probably around 0.8 km."
+  ahr: "N/A"
+  highlight: "Starting a workday from home with a run is just great."
 - date: "2024-03-02"
-  content:
-  distance:
-  ahr:
-  highlight:
+  content: "Western winds took me to Torslanda and Lilla Varholmen for this long run. Report said rain for whole day but the morning. Was lucky to get my feet outside early enough before it started to pour. Went a little lost in the oil industry district on my way there (as a runner looking for a recreational sight-seeing I felt quite ill-placed I must say) however adding just the right distance and time for this session."
+  distance: "22 km"
+  ahr: N/A
+  highlight: "Finished with a ferry ride to Öckerö just to get to see the ocean a bit more before returning. One of those perks I do enjoy living in Gothenburg."
 - date: "2024-03-03"
   content:
   distance:
