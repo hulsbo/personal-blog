@@ -1,6 +1,6 @@
 ---
 layout: plan
-title: Running Plan
+title: Plan
 permalink: /plan/
 ---
 
