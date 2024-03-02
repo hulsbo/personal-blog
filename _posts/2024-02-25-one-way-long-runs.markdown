@@ -1,20 +1,16 @@
 ---
 layout: home
-title:  "One-way long runs"
+title:  "Wind in the back runs"
 date:   2024-03-02 16:30:00 +0100
 permalink: /one-way-runs/
 ---
 
-
-# One-way long runs
-
-## Always the wind in my back
 The wind can often be disturbingly strong here on the west-coast. A good solution is to plan the run with respect to wind direction so it's always in the back. This method also allows for choosing the best routes from a recreational perspective.
 
-I document here some different options I have for different wind directions with starting point Kvillebäcken:
+I document here some different options of running sessions I have for most wind directions all with starting point Kvillebäcken:
 
 - **Northen winds:** I run through town down to Slottsskogen or further down to Änggårdsbergens nature reserve.
-- **Southern winds:** I run north up to Kungälv. This I did first time 2024-02-24. Bus X4 takes me back home again departing as often as every 10 min (until 18:00, then every 15 min)
+- **Southern winds:** I run north up to Kungälv. This I did first time 2024-02-24. Bus X4 takes me back home again departing as often as every 10 min (until 18:00, then every 15 min).
 - **Western winds:** I run to Skatås training facility or Delsjön's nature reserve. Several good options from there:
   - Tram 5 takes me back from Welandergatan (Skatås) (every 12 min).
   - Bus 17 takes me back from Spåntorget (every 10 min).
