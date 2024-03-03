@@ -7,7 +7,12 @@ permalink: /shoes/
 
 ---
 
-<img src="/assets/ignored/favicon2.png" alt="rad shoes" class="img-small img-right">
+<img src="/assets/images/altra-torin.jpeg" alt="rad shoes" class="img-small img-right">
 
-Altra Torin european size 44. Not to be underestimated.
 
+
+- Altra Torin 7 
+- EU size 44
+- Zero drop
+- X-tra large toebox
+- Worn by [The Runner](/runner.markdown)
