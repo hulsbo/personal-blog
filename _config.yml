@@ -18,11 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: The Incliner
+title: Red Shoes Running
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to The Incliner by Oskar Huledal, a simple blog about a man's personal training journey for Göteborgsvarvet 2024.
-baseurl: "/personal-blog" # the subpath of your site
+  Welcome to Red Shoes Running by Oskar Huledal, a simple blog about a man's personal training journey for Göteborgsvarvet 2024.
 url: "https://hulsbo.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
@@ -32,6 +31,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - nokogiri
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
