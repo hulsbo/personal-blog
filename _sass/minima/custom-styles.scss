@@ -38,3 +38,15 @@ This 'right' value works apparently to center header
   ul.posts {
     list-style-type: square
   }
+
+/* Style for images to appear smaller */
+.img-small {
+  width: 50%; /* or any size you prefer */
+  height: auto; /* maintain aspect ratio */
+}
+
+/* Style for images to float to the right */
+.img-right {
+  float: right;
+  margin-left: 20px; /* Add some space between the text and the image */
+}
