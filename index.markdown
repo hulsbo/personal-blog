@@ -10,11 +10,12 @@ To make my efforts more deliberate and effective I have created a running [plan]
 
 **My current goal is to finish the race below 01:25:00.**
 
-### Current records (to be updated)
+### Notable achievements (to be updated)
 
-| Date       | Achievement                 | Time       | Location   |
-|------------|-----------------------------|------------|------------|
-| 2023-12-08 | New PB 10k                  | 40:00      | Treadmill  |
-| 2023-12-09 | New PB 5k                   | 19:20      | Treadmill  |
-| 2023-12-30 | New PB 10k                  | 37:50      | Treadmill  |
-| 2024-01-06 | Premiere Half-Marathon      | 01:34:00   | Treadmill  |
+| Date       | Achievement                 | Time       | Pace       | Location   |
+|------------|-----------------------------|------------|------------|------------|
+| 2023-12-08 | New PB 10k                  | 40:00      | 04:00      | Treadmill  |
+| 2023-12-09 | New PB 5k                   | 19:20      | 03:52      | Treadmill  |
+| 2023-12-30 | New PB 10k                  | 37:50      | 03:47      | Treadmill  |
+| 2024-01-06 | Premiere Half-Marathon      | 01:34:00   | 04:27      | Treadmill  |
+| 2024-03-03 | New PB 5k                   | 18:10      | 03:38      | Treadmill  |
