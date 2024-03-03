@@ -1,6 +1,6 @@
 ---
 layout: plan
-title: Plan
+title: The Plan
 permalink: /plan/
 ---
 
