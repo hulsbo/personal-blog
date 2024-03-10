@@ -1,7 +1,7 @@
 ---
 layout: home
 title:  "Lactate test with Johan Håård"
-date:   2024-02-25 11:53:00 +0100
+date:   2024-03-10 11:53:00 +0100
 permalink: /lactate-test/
 ---
 
