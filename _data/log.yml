@@ -244,17 +244,53 @@
   ahr: "170 (160 at start, 179 at end) for the 16.5 km/h 20 min run."
   highlight: "New PB at 5K - 18:10! Still improving steadily with 16.5 km/h (3:38 min/km) pace. Not too many weeks more and I'll be able to keep this pace for 10K as well."
 - date: "2024-03-04"
-  content:
+  content: "OCD"
   distance:
   ahr:
   highlight:
 - date: "2024-03-05"
-  content:
-  distance:
-  ahr:
-  highlight:
+  content: "Finished day with 37 min rowing at the hotel's gym. Their treadmill was broken and dangerous to use."
+  distance: "N/A"
+  ahr: "N/A"
+  highlight: "N/A"
 - date: "2024-03-06"
+  content: "Conference days at work. Exchange commuting with Rowing at the hotel for 32 min."
+  distance:
+  ahr:
+  highlight:
+- date: "2024-03-07"
+  content: "Conference days at work. No training done today. Had a headache but also too little time."
+  distance: 
+  ahr: 
+  highlight: 
+- date: "2024-03-08"
+  content: "Only did a 35 min run (distance 7.6 km) but a lot of walking with a ~ 5 kg backpack was also done during the day in total probably about 11 km. Therefore not too bad actually."
+  distance: "18.6 km (walking and running)"
+  ahr: "N/A"
+  highlight: "Walking with my mother back home from her office with the sun in our faces. Feels like last time it shined like that was in October last year."
+- date: "2024-03-09"
+  content: "Tried to take it easy to not be exhausted for tomorrow's tests. Cold in the air. Stride rate was not too bad (167) considering the average pace (5:30), and pace not too bade considering an average heart rate of 129. For the same pace indoors in december I had an average heart rate of about 140."
+  distance: "14 km"
+  ahr: "129"
+  highlight: "It is said the environment shapes us to who we become. Even though I was not filled with nostalgia, revisiting my old neighborhoods felt valuable to me. Especially the forest Älvsjöskogen I have been running so many laps, continually improving my pace, changing my perception of the 4 km distance lap from a long run as a boy, to a medium run as an adolescent, to a casual shorter run done every morning as an adult. And today it's closing in on being just a spring - a distance covered as quick as it comes. As we change, perceptions do the same."
+- date: "2024-03-10"
+  content: "Lactate and max pulse tests with cousin Johan Håård. This resulted also in a lot of distance covered."
+  distance: "14 km"
+  ahr: "N/A"
+  highlight: "Definently all learnings about lactate levels and threshold training made from my cousin clearly very knowledgeable in this subject. And the test results shows my target of 01:25:00 is well within reach. Moreover, if I can execute very deliberately on this knowledge perhaps I can improve faster than I have first believed was possible."
+- date: "2024-03-11"
   content:
   distance:
   ahr:
   highlight:
+- date: "2024-03-12"
+  content:
+  distance:
+  ahr:
+  highlight:
+- date: "2024-03-13"
+  content: ""
+  distance: ""
+  ahr: ""
+  highlight: ""
+
