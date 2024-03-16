@@ -279,17 +279,67 @@
   ahr: "N/A"
   highlight: "Definently all learnings about lactate levels and threshold training made from my cousin clearly very knowledgeable in this subject. And the test results shows my target of 01:25:00 is well within reach. Moreover, if I can execute very deliberately on this knowledge perhaps I can improve faster than I have first believed was possible."
 - date: "2024-03-11"
-  content:
+  content: "OCD (bike)"
   distance:
   ahr:
   highlight:
 - date: "2024-03-12"
-  content:
+  content: "OCD (bike)"
   distance:
   ahr:
   highlight:
 - date: "2024-03-13"
-  content: 
+  content: "OCD (run)"
+  distance: 
+  ahr: 
+  highlight: 
+- date: "2024-03-14"
+  content: "OCD (run)"
+  distance: 
+  ahr: 
+  highlight: 
+- date: "2024-03-15"
+  content: "OCD (bike)"
+  distance: 
+  ahr: 
+  highlight: 
+- date: "2024-03-16"
+  content: "Long run to Kungälv but this time on the bike roads only. Equally smoother as it was boring, I made it there in just 01:53:00. My average HR was a bit high for the given pace, felt good all the way there except for some pain in the knees at the beginning and end."
+  distance: "22.2"
+  ahr: "142"
+  highlight: "No headphones this time (lost them in the week). Not too much of a downside actually, especially on a weekend run; allowing the brain to relax fully is not a bad thing." 
+- date: "2024-03-17"
+  content: "OCD (run)"
+  distance: # "Tried for the first time the prescribed threshold training from Johan Håård. Have also made some own research."
+  ahr: 
+  highlight: 
+- date: "2024-03-18"
+  content: "OCD (run)"
+  distance: 
+  ahr: 
+  highlight: 
+- date: "2024-03-19"
+  content: "OCD (run)"
+  distance: 
+  ahr: 
+  highlight: 
+- date: "2024-03-20"
+  content: "OCD (run)"
+  distance: 
+  ahr: 
+  highlight: 
+- date: "2024-03-21"
+  content: "OCD (run)"
+  distance: 
+  ahr: 
+  highlight: 
+- date: "2024-03-22"
+  content: "OCD (run)"
+  distance: 
+  ahr: 
+  highlight: 
+- date: "2024-03-23"
+  content: "OCD (run)"
   distance: 
   ahr: 
   highlight: 
