@@ -5,7 +5,7 @@ date:   2024-03-10 11:53:00 +0100
 permalink: /lactate-test/
 ---
 
-I had the great opportunity today to do a lactate test together with my cousin Johan Håård, who is a well educated sports science enthusiast and former athlete sprinter for the 800 m distance. We also did a max pulse test requested by me but it was the lactate test that was especially interesting since it in detail can show where my aerobic threshold is in relation to pace. This post is about the lactate test, for the max pulse test see another post following this one.
+I had the great opportunity today to do a lactate test together with my cousin Johan Håård, who is a well educated sports science enthusiast and former athlete sprinter for the 800 m distance. We also did a max pulse test requested by me but it was the lactate test that was especially interesting since it in detail can show where my aerobic threshold is in relation to pace. This post is about the lactate test. For the max pulse test, see [Max pulse and training zones](/max-pulse-and-zones).
 
 ## Theory and motivation behind a lactate level test
 Johan emphasized that since I train for the half-marathon I must not train anaerobically that is past my aerobic threshold. This he means would not be effective since the anaerobic system add very little to the result of a marathon runner's race performance, since as little as a couple of percentages of all energy used during the race comes from the anaerobic system.
@@ -34,4 +34,4 @@ The result of the lactate test was promising since it indicate that I am on a go
 
 The wind played some role in the testing results. To compensate for this, one could add or remove 5 second to the paces depending on if the wind was "with" or "against". Another note to be made is that the 4:00 min / km was recoreded as 3:55 km/min on the GPS tracker.
 
-These results will be used for designing effective threshold runs. These ideas will be presented in a separate post following this one.
+These results can be used for designing an effective threshold run session, see [Threshold runs recipe](/threshold-runs-recipe).
