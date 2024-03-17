@@ -7,7 +7,7 @@ permalink: /max-pulse-and-zones/
 
 Last week I performed a max pulse test in the good company of my cousin Johan Håård who is a sports science enthusiast and a great running coach. This resulted in a max pulse of 178 which is quite low result for a fit 28 year old.
 
-# Assessing validity of results
+## Assessing validity of results
 It's however important to consider that this measurement is made during a demanding training period involving daily aerobic training. It's sound to assume that my heart is a bit tired and would have a higher max pulse after a period of recovery. I had also been doing a lactate test just before the max pulse test was done, which might have affected the results further.
 
 A lower heart rate than average for a particular age group could also have to do with how well conditioned the individual is. According to *Zavorsky G. S. (2000)*, VO2max and HRmax are inversely correlated, since a well trained person's heart is able to pump out more blood volume per beat. So perhaps I'm excused?
@@ -25,14 +25,16 @@ Knowing ones max pulse is valuable because it can be used to determine different
 | 4              | Anaerobic training, mainly at 800 m and 1500 m pace | >8.0   | >97     | Increase anaerobic capacity           |
 | 5              | Sprint                                    |                  |         | Increase speed                        |
 
+
+## My training zones
 Converting the % values into absolute values using my max heart rate of 181, the following table is attained:
 
 | Intensity Zone | Type of Training                                         | Absolute HR (bpm) |
 |----------------|----------------------------------------------------------|-------------------|
-| 1              | long runs and distance runs                              | 112 - 148         |
+| 1              | Long runs and distance runs                              | 112 - 148         |
 | 2              | Threshold training (> 4:00 min/km)                       | 148 - 166         |
 | 3              | Intense aerobic intervals (< 4:00 min/km)                | 166 - 176         |
-| 4              | Anaerobic training, mainly at 800 m and 1500 m pace      | >176              |
+| 4              | Anaerobic training, mainly at 800 m and 1500 m pace      | > 176             |
 
 In this table I have omitted category "Sprint" since I see no reason to focus on this in my training at moment being. I also don't understand the adaptation motivation "Increase speed" which is very ambiguous. I'd like to mention too that I judge the "easy and moderate continuous running" zone to be directly translatable to "long runs and distance runs", and where the target HRs for these types of training sessions can be found at each end of this intensity zone, more or less.
 
@@ -40,3 +42,6 @@ This table makes a good reference for assessing the quality of all types of trai
 
 ## References
 [Zavorsky G. S. (2000). Evidence and possible mechanisms of altered maximum heart rate with endurance training and tapering. Sports medicine (Auckland, N.Z.), 29(1), 13–26.](https://doi.org/10.2165/00007256-200029010-00002)
+
+[Kelemen, B., Benczenleitner, O., & Toth, L. (2023). The Norwegian double-threshold method in distance running: Systematic literature review.
+Scientific Journal of Sport and Performance, 3(1), 38-46.](https://doi.org/10.55860/NBXV4075)
