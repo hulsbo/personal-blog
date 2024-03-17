@@ -39,4 +39,4 @@ In this table I have omitted category "Sprint" since I see no reason to focus on
 This table makes a good reference for assessing the quality of all types of training sessions present in the training plan.
 
 ## References
-Zavorsky G. S. (2000). Evidence and possible mechanisms of altered maximum heart rate with endurance training and tapering. Sports medicine (Auckland, N.Z.), 29(1), 13–26. https://doi.org/10.2165/00007256-200029010-00002
+[Zavorsky G. S. (2000). Evidence and possible mechanisms of altered maximum heart rate with endurance training and tapering. Sports medicine (Auckland, N.Z.), 29(1), 13–26.](https://doi.org/10.2165/00007256-200029010-00002)
