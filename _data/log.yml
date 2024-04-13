@@ -1,314 +1,314 @@
 # _data/log.yml
-- date: "2024-01-15"
-  content: "Snowy and cold, long commuting, training cancelled"
+- date: '2024-01-15'
+  content: 'Snowy and cold, long commuting, training cancelled'
 
-- date: "2024-01-16"
-  content: "Snowy and cold, commuting replaced with long 65 min session at gym. Got a little stomach pain in the middle so had to slow down. Did 30 min with incline on 6 degrees at 13.5 km/h. Last 4 kilometers mean HR 177."
-  distance: "14.4 km"
+- date: '2024-01-16'
+  content: 'Snowy and cold, commuting replaced with long 65 min session at gym. Got a little stomach pain in the middle so had to slow down. Did 30 min with incline on 6 degrees at 13.5 km/h. Last 4 kilometers mean HR 177.'
+  distance: '14.4 km'
   highlight: "HR at 179 last 10 minutes didn't feel too discomforting."
-  ahr: "165"
+  ahr: '165'
 
-- date: "2024-01-17"
+- date: '2024-01-17'
   content: "Started training late in the evening. I was also tired from yesterday's session which I realized was too aggressive in relation to the plan. Decided to run at 16 km/h until I hit 179 HR which I did at about 5,5 km. Then I slowed down to 13,5 km/h, then stomach pain, so slowed down again to 12,5 km/h but with 6 degrees of incline."
-  distance: "11.5 km"
-  highlight: "Persevered despite low heartrate/pain ratio."
-  ahr: "169"
+  distance: '11.5 km'
+  highlight: 'Persevered despite low heartrate/pain ratio.'
+  ahr: '169'
 
-- date: "2024-01-18"
-  content: "60 min run is not equivalent to 60 min bike commute. Let myself therefore take it easier than on Tuesday, running 45 min at a relaxed tempo. Held 14 km/h with incline 1, then 2, then 3 at about 25 min. Last 3 min with incline on 6 and 13 km/h."
-  distance: "10.4 km"
+- date: '2024-01-18'
+  content: '60 min run is not equivalent to 60 min bike commute. Let myself therefore take it easier than on Tuesday, running 45 min at a relaxed tempo. Held 14 km/h with incline 1, then 2, then 3 at about 25 min. Last 3 min with incline on 6 and 13 km/h.'
+  distance: '10.4 km'
   highlight: "My cadence seem to really be improving! According to my watch I had an average cadence of 179 HR, and I didn't even go at my maximum speed for the 10k this time."
-  ahr: "163"
-- date: "2024-01-19"
+  ahr: '163'
+- date: '2024-01-19'
   content: "Took a rest day because no time for training but as well to compensate for Tuesday's overtraining."
   ahr:
   highlight:
-- date: "2024-01-20"
-  content: "Interval training instead of distance session. First interval: 3 degrees at 13,5 km/h for 10 min. Second interval: 3 degrees at 14 km/h for 6.5 min. Third interval: 3 degrees at 15 km/h."
-  distance: "7.7 km"
-  ahr: "First and second interval: 165. Third: 170."
-  highlight: "During the 5 min pauses I had 3 degrees incline and 10,5 km/h but retained a HR of sub 140. This HR required three weeks ago an incline of 1."
-- date: "2024-01-21"
-  content: "Held 6 degrees of incline and 10,5 km/h for the whole session except last 10 min after machine reset, then I increased to 9 degrees."
-  distance: "18.9 km"
+- date: '2024-01-20'
+  content: 'Interval training instead of distance session. First interval: 3 degrees at 13,5 km/h for 10 min. Second interval: 3 degrees at 14 km/h for 6.5 min. Third interval: 3 degrees at 15 km/h.'
+  distance: '7.7 km'
+  ahr: 'First and second interval: 165. Third: 170.'
+  highlight: 'During the 5 min pauses I had 3 degrees incline and 10,5 km/h but retained a HR of sub 140. This HR required three weeks ago an incline of 1.'
+- date: '2024-01-21'
+  content: 'Held 6 degrees of incline and 10,5 km/h for the whole session except last 10 min after machine reset, then I increased to 9 degrees.'
+  distance: '18.9 km'
   ahr: 150
-  highlight: "New PB in vertical distance (1162 m) covered in one session. Felt far from exhausted afterwards as well."
-- date: "2024-01-22"
-  content: "45 min run with incline on 3 except last 2,5 min then 4. Speed first at 13 km/h, but after little less than half-time 13,5 km/h."
-  distance: "10.0 km"
+  highlight: 'New PB in vertical distance (1162 m) covered in one session. Felt far from exhausted afterwards as well.'
+- date: '2024-01-22'
+  content: '45 min run with incline on 3 except last 2,5 min then 4. Speed first at 13 km/h, but after little less than half-time 13,5 km/h.'
+  distance: '10.0 km'
   ahr: 160
-  highlight: "A good experiment on what amount of incline I can endure without compromising speed. Will continue like this to increase workload without risk of injury, I find it an especially good strategy on rest days. It also builds muscle preventing injury in that manner as well."
-- date: "2024-01-23"
-  content: "30 min indoor biking. Only biked on HR without pretty much any intervals. Was tough to get HR to rise to satisfactory levels. Low HR/pain ratio in other words."
-  distance: "N/A"
+  highlight: 'A good experiment on what amount of incline I can endure without compromising speed. Will continue like this to increase workload without risk of injury, I find it an especially good strategy on rest days. It also builds muscle preventing injury in that manner as well.'
+- date: '2024-01-23'
+  content: '30 min indoor biking. Only biked on HR without pretty much any intervals. Was tough to get HR to rise to satisfactory levels. Low HR/pain ratio in other words.'
+  distance: 'N/A'
   ahr: 142
   highlight: "The low HR/pain ratio really proofs that bike commuting is real easy work in comparison to a run, since I can't get HR to rise even on an indoor bike as much as I'd like. It also proofs my body is not a biker's."
-- date: "2024-01-24"
+- date: '2024-01-24'
   content: "Ran at 5 degrees of incline at 14 km/h until 40 min, paused at 15 min to tie a shoelace however. The change of pace after 40 min was unplanned and due to feeling exhausted. Took a 5 min rest at 10.5 km/h therefore, and felt the same time pain in left side of stomach and also a bit in the chest, but which faded away as exhaustion disappeared. Before breaking I couldn't reach any higher HR than 173 BPM, so I was suprised that I had to stop because of pains. After the 5 min rest pace I got back again to 14 km/h for «finir en beauté»."
-  distance: "14.1 km"
-  ahr: "164"
-  highlight: "Running at 5 degrees of incline at 14 km/h until 40 min was a great feat despite the need for a 5 min rest pace run after that."
-- date: "2024-01-25"
-  content: "A normal commute to and from my workplace on the other side of the town. One way is 12 km. Nice to be cycling again after a long brake because of snowy and windy conditions last week." 
+  distance: '14.1 km'
+  ahr: '164'
+  highlight: 'Running at 5 degrees of incline at 14 km/h until 40 min was a great feat despite the need for a 5 min rest pace run after that.'
+- date: '2024-01-25'
+  content: 'A normal commute to and from my workplace on the other side of the town. One way is 12 km. Nice to be cycling again after a long brake because of snowy and windy conditions last week.'
   distance: N/A
   ahr: N/A
-  highlight: "On the way back home I managed to keep ahead of a Foodora moped while going over Hisingsbron (regard the uphill start). That was fun!"
-- date: "2024-01-26"
+  highlight: 'On the way back home I managed to keep ahead of a Foodora moped while going over Hisingsbron (regard the uphill start). That was fun!'
+- date: '2024-01-26'
   content: "Constant speed of 14 km/h with increasing inclines. First interval (10 min): 4 degrees, Second interval (7.5 min): 4.5 degrees, Third interval (7.5 min): 6 degrees. Again I find it hard to hit heartrates above 175 BPM, despite increasing the workload. It's like my mind does not know my heart has become stronger. Or is it a sign that my heart is 'tired' and a rest week is needed?"
-  distance: "8.3 km"
-  ahr: "I1: 157, I2: 162, I3: 170. Total inc. rest periods: 150."
-  highlight: "Last interval was a record high kCal burn rate on the treadmill: 1646 kCal / hour."
-- date: "2024-01-27"
-  content: "Upon arrival at the gym I discovered (as I was rejected entry) that I had missed paying an invoice and was therefore rejected entry. Nothing to do but to run outside instead. To accomplish one hour I took another round in the park. Some parts of the track were unlit and really dark. "
-  distance: "14.8 km"
-  ahr: "160"
-  highlight: "Not happy with my stride rate. Thought it was perhaps due to the darkness - taking small steps felt dangeroes as the uneven ground might make me trip and fall. The 4.15 min / km was just okay pace, but given the circumstances I conclude to be content."
-- date: "2024-01-28"
-  content: "DGF (no training)"
+  distance: '8.3 km'
+  ahr: 'I1: 157, I2: 162, I3: 170. Total inc. rest periods: 150.'
+  highlight: 'Last interval was a record high kCal burn rate on the treadmill: 1646 kCal / hour.'
+- date: '2024-01-27'
+  content: 'Upon arrival at the gym I discovered (as I was rejected entry) that I had missed paying an invoice and was therefore rejected entry. Nothing to do but to run outside instead. To accomplish one hour I took another round in the park. Some parts of the track were unlit and really dark. '
+  distance: '14.8 km'
+  ahr: '160'
+  highlight: 'Not happy with my stride rate. Thought it was perhaps due to the darkness - taking small steps felt dangeroes as the uneven ground might make me trip and fall. The 4.15 min / km was just okay pace, but given the circumstances I conclude to be content.'
+- date: '2024-01-28'
+  content: 'DGF (no training)'
   distance:
   ahr:
   highlight:
-- date: "2024-01-29"
-  content: "OCD (ordinary commuting day)"
-  distance: "12.45 km"
+- date: '2024-01-29'
+  content: 'OCD (ordinary commuting day)'
+  distance: '12.45 km'
   ahr:
   highlight:
-- date: "2024-01-30"
-  content: "DGF"
-  distance: 
+- date: '2024-01-30'
+  content: 'DGF'
+  distance:
   ahr:
   highlight:
-- date: "2024-01-31"
-  content: "OCD"
-  distance: "12.45 km"
+- date: '2024-01-31'
+  content: 'OCD'
+  distance: '12.45 km'
   ahr:
   highlight:
-- date: "2024-02-01"
-  content: "OCD"
-  distance: "12.45 km"
+- date: '2024-02-01'
+  content: 'OCD'
+  distance: '12.45 km'
   ahr:
   highlight:
-- date: "2024-02-02"
-  content: "A regular run during lunch. Windy, cold, wet conditions."
-  distance: "6.0 km"
-  ahr: "143"
-  highlight: "Nice to break up the workday with a run. Was however discomforting until heat was built up."
-- date: "2024-02-03"
-  content: "DGF"
-  distance: 
+- date: '2024-02-02'
+  content: 'A regular run during lunch. Windy, cold, wet conditions.'
+  distance: '6.0 km'
+  ahr: '143'
+  highlight: 'Nice to break up the workday with a run. Was however discomforting until heat was built up.'
+- date: '2024-02-03'
+  content: 'DGF'
+  distance:
   ahr:
   highlight:
-- date: "2024-02-04"
-  content: "Nice sunny weather with a wind from the west. Treated myself with a 12 km run to Bertilssons stuga residing in the middle of the nature area of Delsjön. Got myself a lentil soup and then on the top also a cake with coffee. Then back again in the track, really not knowing where to stop, but when I found a bus stop for line 17 arriving in 3 min I thought this must be my finish. I was happy to not worn me out unnecessarly much running on asphalt the last 6 km back home. Had some minor pains already - in that case rolling is better. Had been running about > 90 minutes so had no requirement on me but to stop actually."
-  distance: "18.6 km"
-  ahr: "145"
-  highlight: "Sunny day; wind in the back; meeting smiles; a run through my kind of city; broad tracks in the forest; sun rays bouncing on icy lakes; a cozy coffee hut serving well deserved good stuff. Who could complain."
-- date: "2024-02-05"
-  content: "OCD"
-  distance: "12.45 km"
+- date: '2024-02-04'
+  content: 'Nice sunny weather with a wind from the west. Treated myself with a 12 km run to Bertilssons stuga residing in the middle of the nature area of Delsjön. Got myself a lentil soup and then on the top also a cake with coffee. Then back again in the track, really not knowing where to stop, but when I found a bus stop for line 17 arriving in 3 min I thought this must be my finish. I was happy to not worn me out unnecessarly much running on asphalt the last 6 km back home. Had some minor pains already - in that case rolling is better. Had been running about > 90 minutes so had no requirement on me but to stop actually.'
+  distance: '18.6 km'
+  ahr: '145'
+  highlight: 'Sunny day; wind in the back; meeting smiles; a run through my kind of city; broad tracks in the forest; sun rays bouncing on icy lakes; a cozy coffee hut serving well deserved good stuff. Who could complain.'
+- date: '2024-02-05'
+  content: 'OCD'
+  distance: '12.45 km'
   ahr:
   highlight:
-- date: "2024-02-06"
-  content: "OCD"
-  distance: "12.45 km"
+- date: '2024-02-06'
+  content: 'OCD'
+  distance: '12.45 km'
   ahr:
-  highlight: 
-- date: "2024-02-07"
-  content: "OCD"
-  distance: "12.45 km"
-  ahr: 
   highlight:
-- date: "2024-02-08"
-  content: "Did an interval session starting at 15.5 km/h, 16 km/h and then 16.5 km/h all at incline 1 degree. 15.5 km/h felt almost more intimidating than 16 km/h. 16.5 km/h was tough but solved it by removing glasses and just focusing on maintaining a good technique. Then suddenly I had passed 30 min."
-  distance: "7.5 km"
-  ahr: "161"
-  highlight: "16.5 km/h is a new record speed, even though only being held for 7 min, it feels good to have been able to incorporate it into an interval training session with success."
-- date: "2024-02-09"
-  content: "Threshold training today. Except warmup I ran at 14.6 km/h with 1 degree incline for the whole session."
-  distance: "10.5 km"
-  ahr: "161"
-  highlight: "BPM was pretty consistant. Mean cadence of 182 quite good especially in relation to speed."
-- date: "2024-02-10"
-  content: "Held 13.5 km/ h then soon increased to 14 km/h since goal was to have an average hreat rate at about 150 BPM."
-  distance: "10 km"
-  ahr: "153"
-  highlight: "Much lower AHR than day before, but similar performance. Regarding this, running the half-marathon below 01:30:00 seems quite attainble now. However my AHR for the last kilometer was close to 160."
-- date: "2024-02-11"
-  content: "Long run with different inclines every 10 minutes. First 30 min 1 degree at 13.5 km/h. After 30 min I did 5 degrees at 12 km/h, then 8 degrees at 10 km/h, then 12 degrees at 9 km/h. Then back again to 8 degrees ans 12 km/h finishing the session like so. Original plan was to decrease incline incrementally finishing the same way as I started, but felt a little complain in my right knee so decided to keep the inlince to the end. As long as the heartrate is the same, I am happy."
+- date: '2024-02-07'
+  content: 'OCD'
+  distance: '12.45 km'
+  ahr:
+  highlight:
+- date: '2024-02-08'
+  content: 'Did an interval session starting at 15.5 km/h, 16 km/h and then 16.5 km/h all at incline 1 degree. 15.5 km/h felt almost more intimidating than 16 km/h. 16.5 km/h was tough but solved it by removing glasses and just focusing on maintaining a good technique. Then suddenly I had passed 30 min.'
+  distance: '7.5 km'
+  ahr: '161'
+  highlight: '16.5 km/h is a new record speed, even though only being held for 7 min, it feels good to have been able to incorporate it into an interval training session with success.'
+- date: '2024-02-09'
+  content: 'Threshold training today. Except warmup I ran at 14.6 km/h with 1 degree incline for the whole session.'
+  distance: '10.5 km'
+  ahr: '161'
+  highlight: 'BPM was pretty consistant. Mean cadence of 182 quite good especially in relation to speed.'
+- date: '2024-02-10'
+  content: 'Held 13.5 km/ h then soon increased to 14 km/h since goal was to have an average hreat rate at about 150 BPM.'
+  distance: '10 km'
+  ahr: '153'
+  highlight: 'Much lower AHR than day before, but similar performance. Regarding this, running the half-marathon below 01:30:00 seems quite attainble now. However my AHR for the last kilometer was close to 160.'
+- date: '2024-02-11'
+  content: 'Long run with different inclines every 10 minutes. First 30 min 1 degree at 13.5 km/h. After 30 min I did 5 degrees at 12 km/h, then 8 degrees at 10 km/h, then 12 degrees at 9 km/h. Then back again to 8 degrees ans 12 km/h finishing the session like so. Original plan was to decrease incline incrementally finishing the same way as I started, but felt a little complain in my right knee so decided to keep the inlince to the end. As long as the heartrate is the same, I am happy.'
   distance: "18.5 km (but not quite sure since machine resetted asking me to cool down when there were 2 minutes left, and I failed to record the data before then. Watch says 18.89 km but think it's too optimistic regarding that I was doing a lot of incline. )"
-  ahr: "152"
-  highlight: "Really stable BPM throughout the training. The graph is flat. This despite not going easier at the end (8 degrees and 10 km/h). Builds confidence."
-- date: "2024-02-12"
-  content: "Bad weather. Took a full rest day."
+  ahr: '152'
+  highlight: 'Really stable BPM throughout the training. The graph is flat. This despite not going easier at the end (8 degrees and 10 km/h). Builds confidence.'
+- date: '2024-02-12'
+  content: 'Bad weather. Took a full rest day.'
   distance:
   ahr:
   highlight:
-- date: "2024-02-13"
-  content: "ECD (Extraordinary commuting day)"
+- date: '2024-02-13'
+  content: 'ECD (Extraordinary commuting day)'
   distance:
   ahr:
   highlight:
-- date: "2024-02-14"
-  content: "ECD"
+- date: '2024-02-14'
+  content: 'ECD'
   distance:
   ahr:
   highlight:
-- date: "2024-02-15"
-  content: "Always 1 degree incline. 10 min warm-up. Then 14.4 km/h first 7 min, then 15 km/h for the remaining 40 min. Finish with 5 min cool-down."
-  distance: "14.1 km"
-  ahr: "Excluding warm-ups around 160."
-  highlight: "Had a little cramp in my left leg but overcome it. Then 15 km/h felt great until finish, almost like a cruising speed. Think a half marathon averaging 15 km/h is not too far away from being possible. That would result in a finish time of 01:24:24 surpassing my target time with a good margin."
-- date: "2024-02-16"
-  content: "The session was very alike the one I did last week. I decided to not increase the duration of the intervals but instead incorporate a good 10 min warm up and a 3 min cooldown. Ran for a total of 45 min."
-  distance: "9.7 km"
-  ahr: "Around 175 (for intervals)"
-  highlight: "Happy to still be able to run at 16.5 km/h. Felt a little easier this time (but just a little...); was a little surprised when I discovered I had finished the last interval already."
-- date: "2024-02-17"
-  content: "Held a too high average heart rate especially at the slopes. Cadence was also way too low at an average of 168."
-  distance: "10.5 km"
-  ahr: "158"
+- date: '2024-02-15'
+  content: 'Always 1 degree incline. 10 min warm-up. Then 14.4 km/h first 7 min, then 15 km/h for the remaining 40 min. Finish with 5 min cool-down.'
+  distance: '14.1 km'
+  ahr: 'Excluding warm-ups around 160.'
+  highlight: 'Had a little cramp in my left leg but overcome it. Then 15 km/h felt great until finish, almost like a cruising speed. Think a half marathon averaging 15 km/h is not too far away from being possible. That would result in a finish time of 01:24:24 surpassing my target time with a good margin.'
+- date: '2024-02-16'
+  content: 'The session was very alike the one I did last week. I decided to not increase the duration of the intervals but instead incorporate a good 10 min warm up and a 3 min cooldown. Ran for a total of 45 min.'
+  distance: '9.7 km'
+  ahr: 'Around 175 (for intervals)'
+  highlight: 'Happy to still be able to run at 16.5 km/h. Felt a little easier this time (but just a little...); was a little surprised when I discovered I had finished the last interval already.'
+- date: '2024-02-17'
+  content: 'Held a too high average heart rate especially at the slopes. Cadence was also way too low at an average of 168.'
+  distance: '10.5 km'
+  ahr: '158'
   highlight: "A sunny beautiful day with a lot of company from other pedestrians and runners along the banks of Hisingen's different city districs Lindholmen, Eriksberg and Färjenäs. Made me long for spring."
-- date: "2024-02-18"
+- date: '2024-02-18'
   content: "Ran to Björlanda Kile via the cycle roads of Björlandavägen while listening to an audio book, all in good spirit despite the rainy and cold conditions. Held around 5:00 minute per km with a heart rate of around 130 BPM. Arriving somewhat soaked and cold to the small boat harbour one hour later I entered restaurant 'Pad Thai' to change, dry up and treat myself with well earned lunch. While digesting my 'Pad Thai' (considering the restuarant was called the same I thought this dish should be a safe choice) I considered my options on what to do next. I had still about 45 min left of running, but the rain was intensifying and wind had picked up blowing against the direction of the home journey. Afraid of not being able to keep the heat up, I decided to end the session and return by the last bus instead. Stride rate was at an unaccepteble average of 165 even though I reminded myself at times about not being lazy with it. There's clearly something about outdoor runs that make my stride rate really bad."
-  distance: "12.9 km"
-  ahr: "135"
+  distance: '12.9 km'
+  ahr: '135'
   highlight: "These types of long sessions are really nice in that regard that they are good 'MAF training' while being a recreational excursion at the same time. Listening to something interesting is also just great for these long runs. Too bad I had to quit the session earlier this time but I'm eager to redo and develop this further going forward. Next time I should have pace music on supporting a better stride rate."
-- date: "2024-02-19"
+- date: '2024-02-19'
   content: "I got the idea to 'finish what I started' yesterday by taking the bus back up to Björlanda kile and from there take me home. The wind had turned and the rain was gone so the run was easy and relaxed. Didn't get my watch while hurrying to the bus, but used runkeeper on my phone as a plan B. Took it quite easy throughout the run with an average pace of 4.30 min/km (13,3 km/h) but should have gone a bit slower for long session pace. Listened to my 180 BPM music playlist to keep sure I held the right stride rate. At the end I sprinted down to 3:18 min/km pace just to get a feel for it."
-  distance: "12.5 km"
-  ahr: "N/A"
+  distance: '12.5 km'
+  ahr: 'N/A'
   highlight: "Finding these from A to B sprint runs really pleasant to do. Hoping to exchange my bike commuting with them, if I can find a good solution running with a backpack with my stuff for work. But at long session speed one-way (there or back home) shouldn't be too much of a problem."
-- date: "2024-02-20"
-  content: "Ran to work with a 5 kg backpack. Went surprisingly fast (too fast for long run) with an average pace of 4:40 min/km but felt great all the way. I really would like to do this more often starting working days by a run TO work."
-  distance: "13.3 km"
-  ahr: "N/A"
-  highlight: "Proved I needed a better backpack for commute running, beginning that search."
-- date: "2024-02-21"
-  content: "OCD (bike)"
-  distance: "12.45 km"
+- date: '2024-02-20'
+  content: 'Ran to work with a 5 kg backpack. Went surprisingly fast (too fast for long run) with an average pace of 4:40 min/km but felt great all the way. I really would like to do this more often starting working days by a run TO work.'
+  distance: '13.3 km'
+  ahr: 'N/A'
+  highlight: 'Proved I needed a better backpack for commute running, beginning that search.'
+- date: '2024-02-21'
+  content: 'OCD (bike)'
+  distance: '12.45 km'
   ahr:
   highlight:
-- date: "2024-02-22"
-  content: "OCD (bike)"
-  distance: "12.45 km"
+- date: '2024-02-22'
+  content: 'OCD (bike)'
+  distance: '12.45 km'
   ahr:
   highlight:
-- date: "2024-02-23"
-  content: "Bad weather. Took a full rest day."
+- date: '2024-02-23'
+  content: 'Bad weather. Took a full rest day.'
   distance:
   ahr:
   highlight:
-- date: "2024-02-24"
+- date: '2024-02-24'
   content: "Long run of 135 min to Kungälv. Easy pace of 6:30 min/km including breaks, stopped occasionally to take photos and to find my way. Route was not perfect as I had to run on a 70 km/h road for 15 min at the end, but exciting to see Hisingen's 'heart' Djupedal."
-  distance: "22.6 km"
-  ahr: "127 BPM (including all breaks)"
-  highlight: "The nice scenery along the way. A sense of adventure. Pizza."
-- date: "2024-02-25"
-  content: "Planned to do same as last week: 10 min warmup, 3 times of 7 min intervals starting at 15.5 km/h increasing in increments of 0.5 km/h, all at a 1 degree incline. When I however reached 16.5 km/h I felt strong and prolonged it with 3 minutes."
-  distance: "11.0 km"
-  ahr: 
-  highlight: "Happy to make progress in this speed! Might at this pace be aiming for a new PB for the 5K at next threshold session."
-- date: "2024-02-26"
-  content: "OCD (bike)"
-  distance: "12.45 km"
+  distance: '22.6 km'
+  ahr: '127 BPM (including all breaks)'
+  highlight: 'The nice scenery along the way. A sense of adventure. Pizza.'
+- date: '2024-02-25'
+  content: 'Planned to do same as last week: 10 min warmup, 3 times of 7 min intervals starting at 15.5 km/h increasing in increments of 0.5 km/h, all at a 1 degree incline. When I however reached 16.5 km/h I felt strong and prolonged it with 3 minutes.'
+  distance: '11.0 km'
+  ahr:
+  highlight: 'Happy to make progress in this speed! Might at this pace be aiming for a new PB for the 5K at next threshold session.'
+- date: '2024-02-26'
+  content: 'OCD (bike)'
+  distance: '12.45 km'
   ahr:
   highlight:
-- date: "2024-02-27"
-  content: "OCD (bike)."
-  distance: "12.45 km"
+- date: '2024-02-27'
+  content: 'OCD (bike).'
+  distance: '12.45 km'
   ahr:
-  highlight: "Considering again, three times a week running to work (12 km) is a good starting point at the moment being."
-- date: "2024-02-28"
-  content: "OCD (run). Rainy and almost negative degrees with a headwind. Shit weather in other words, but I made it to work with a quite preserved mood. I felt lucky my laptop did not get too soaked being deceitfully protected by my new running backpack from SILVA. Too cheap of a product."
-  distance: "12.45 km"
-  ahr: "145"
-  highlight: "Despite the lousy weather the run did keep my mood up."
-- date: "2024-02-29"
+  highlight: 'Considering again, three times a week running to work (12 km) is a good starting point at the moment being.'
+- date: '2024-02-28'
+  content: 'OCD (run). Rainy and almost negative degrees with a headwind. Shit weather in other words, but I made it to work with a quite preserved mood. I felt lucky my laptop did not get too soaked being deceitfully protected by my new running backpack from SILVA. Too cheap of a product.'
+  distance: '12.45 km'
+  ahr: '145'
+  highlight: 'Despite the lousy weather the run did keep my mood up.'
+- date: '2024-02-29'
   content: "Workday and weather was not good for commute run. Body and legs felt quite sore from yesterday's commute run too. Incline is my friend however. Did instead 50 min in the gym with 9 km/h / 9 deg incline. Increased to 10 km/h after half the time. HR was a bit too high in the end at 160."
-  distance: "Horizontal: 8 km. Vertical 0.7 km."
-  ahr: "152"
+  distance: 'Horizontal: 8 km. Vertical 0.7 km.'
+  ahr: '152'
   highlight: "Incline is my body's savior and best friend, a guardian for my injury-free condition, combatting my competitive mind's aspiration for fast progress armed with degrees, so many degrees..."
-- date: "2024-03-01"
-  content: "Same recipe as yesterday but I increased incline to 12 degrees at half-time while decreasing to 7 km/h. Body felt a little stronger this day."
-  distance: "Horizontal 6.5 km. Vertical unknown but probably around 0.8 km."
-  ahr: "N/A"
-  highlight: "Starting a workday from home with a run is just great."
-- date: "2024-03-02"
-  content: "Western winds took me to Torslanda and Lilla Varholmen for this long run. Report said rain for whole day but the morning. Was lucky to get my feet outside early enough before it started to pour. Went a little lost in the oil industry district on my way there (as a runner looking for a recreational sight-seeing I felt quite ill-placed I must say) however adding just the right distance and time intended for this session."
-  distance: "22 km"
+- date: '2024-03-01'
+  content: 'Same recipe as yesterday but I increased incline to 12 degrees at half-time while decreasing to 7 km/h. Body felt a little stronger this day.'
+  distance: 'Horizontal 6.5 km. Vertical unknown but probably around 0.8 km.'
+  ahr: 'N/A'
+  highlight: 'Starting a workday from home with a run is just great.'
+- date: '2024-03-02'
+  content: 'Western winds took me to Torslanda and Lilla Varholmen for this long run. Report said rain for whole day but the morning. Was lucky to get my feet outside early enough before it started to pour. Went a little lost in the oil industry district on my way there (as a runner looking for a recreational sight-seeing I felt quite ill-placed I must say) however adding just the right distance and time intended for this session.'
+  distance: '22 km'
   ahr: N/A
-  highlight: "Finished with a ferry ride to Öckerö just to get to see the ocean a bit more before returning. One of those perks living in Gothenburg I enjoy taking advantage of."
-- date: "2024-03-03"
-  content: "Since it was interval runs last week and I wanted to see how long I could hold 16.5 km/h I decided to start from that speed directly after the 10 min warm up. Goal was to make a new PR on the 5K distance which I indeed succeded doing. I held out for 20 min so covered 5.5 km at that pace. My heartrate was reached 179 just before slowing down again to warm-up speed, ending the session with a 10 min cool-down at 10 km/h. Incline was as usual for PBs on treadmill at 1 degree. Cadence topped at 190."
-  distance: "8.75 km"
-  ahr: "170 (160 at start, 179 at end) for the 16.5 km/h 20 min run."
+  highlight: 'Finished with a ferry ride to Öckerö just to get to see the ocean a bit more before returning. One of those perks living in Gothenburg I enjoy taking advantage of.'
+- date: '2024-03-03'
+  content: 'Since it was interval runs last week and I wanted to see how long I could hold 16.5 km/h I decided to start from that speed directly after the 10 min warm up. Goal was to make a new PR on the 5K distance which I indeed succeded doing. I held out for 20 min so covered 5.5 km at that pace. My heartrate was reached 179 just before slowing down again to warm-up speed, ending the session with a 10 min cool-down at 10 km/h. Incline was as usual for PBs on treadmill at 1 degree. Cadence topped at 190.'
+  distance: '8.75 km'
+  ahr: '170 (160 at start, 179 at end) for the 16.5 km/h 20 min run.'
   highlight: "New PB at 5K - 18:10! Still improving steadily with 16.5 km/h (3:38 min/km) pace. Not too many weeks more and I'll be able to keep this pace for 10K as well."
-- date: "2024-03-04"
-  content: "OCD"
+- date: '2024-03-04'
+  content: 'OCD'
   distance:
   ahr:
   highlight:
-- date: "2024-03-05"
+- date: '2024-03-05'
   content: "Finished day with 37 min rowing at the hotel's gym. Their treadmill was broken and dangerous to use."
-  distance: "N/A"
-  ahr: "N/A"
-  highlight: "N/A"
-- date: "2024-03-06"
-  content: "Conference days at work. Exchange commuting with Rowing at the hotel for 32 min."
+  distance: 'N/A'
+  ahr: 'N/A'
+  highlight: 'N/A'
+- date: '2024-03-06'
+  content: 'Conference days at work. Exchange commuting with Rowing at the hotel for 32 min.'
   distance:
   ahr:
   highlight:
-- date: "2024-03-07"
-  content: "Conference days at work. No training done today. Had a headache but also too little time."
-  distance: 
-  ahr: 
-  highlight: 
-- date: "2024-03-08"
-  content: "Only did a 35 min run (distance 7.6 km) but a lot of walking with a ~ 5 kg backpack was also done during the day in total probably about 11 km. Therefore not too bad actually."
-  distance: "18.6 km (walking and running)"
-  ahr: "N/A"
-  highlight: "Walking with my mother back home from her office with the sun in our faces. Feels like last time it shined like that was in October last year."
-- date: "2024-03-09"
+- date: '2024-03-07'
+  content: 'Conference days at work. No training done today. Had a headache but also too little time.'
+  distance:
+  ahr:
+  highlight:
+- date: '2024-03-08'
+  content: 'Only did a 35 min run (distance 7.6 km) but a lot of walking with a ~ 5 kg backpack was also done during the day in total probably about 11 km. Therefore not too bad actually.'
+  distance: '18.6 km (walking and running)'
+  ahr: 'N/A'
+  highlight: 'Walking with my mother back home from her office with the sun in our faces. Feels like last time it shined like that was in October last year.'
+- date: '2024-03-09'
   content: "Tried to take it easy to not be exhausted for tomorrow's tests. Cold in the air. Stride rate was not too bad (167) considering the average pace (5:30), and pace not too bade considering an average heart rate of 129. For the same pace indoors in december I had an average heart rate of about 140."
-  distance: "14 km"
-  ahr: "129"
+  distance: '14 km'
+  ahr: '129'
   highlight: "It is said the environment shapes us to who we become. Even though I was not filled with nostalgia, revisiting my old neighborhoods felt valuable to me. Especially the forest Älvsjöskogen I have been running so many laps, continually improving my pace, changing my perception of the 4 km distance lap from a long run as a boy, to a medium run as an adolescent, to a casual shorter run done every morning as an adult. And today it's closing in on being just a sprint - a distance covered as quick as it comes. As we change, perceptions do the same."
-- date: "2024-03-10"
-  content: "Lactate and max pulse tests with cousin Johan Håård. This resulted also in a lot of distance covered."
-  distance: "14 km"
-  ahr: "N/A"
-  highlight: "Definently all learnings about lactate levels and threshold training made from my cousin clearly very knowledgeable in this subject. And the test results shows my target of 01:25:00 is well within reach. Moreover, if I can execute very deliberately on this knowledge perhaps I can improve faster than I have first believed was possible."
-- date: "2024-03-11"
-  content: "OCD (bike)"
+- date: '2024-03-10'
+  content: 'Lactate and max pulse tests with cousin Johan Håård. This resulted also in a lot of distance covered.'
+  distance: '14 km'
+  ahr: 'N/A'
+  highlight: 'Definently all learnings about lactate levels and threshold training made from my cousin clearly very knowledgeable in this subject. And the test results shows my target of 01:25:00 is well within reach. Moreover, if I can execute very deliberately on this knowledge perhaps I can improve faster than I have first believed was possible.'
+- date: '2024-03-11'
+  content: 'OCD (bike)'
   distance:
   ahr:
   highlight:
-- date: "2024-03-12"
-  content: "OCD (bike)"
+- date: '2024-03-12'
+  content: 'OCD (bike)'
   distance:
   ahr:
   highlight:
-- date: "2024-03-13"
-  content: "OCD (run)"
-  distance: 
-  ahr: 
-  highlight: 
-- date: "2024-03-14"
-  content: "OCD (run)"
-  distance: 
-  ahr: 
-  highlight: 
-- date: "2024-03-15"
-  content: "OCD (bike)"
-  distance: 
-  ahr: 
-  highlight: 
-- date: "2024-03-16"
-  content: "Long run to Kungälv but this time on the bike roads only. Equally smoother as it was boring, I made it there in just 01:53:00. My average HR was a bit high for the given pace, felt good all the way there except for some pain in the knees at the beginning and end."
-  distance: "22.2 km"
-  ahr: "142"
-  highlight: "No headphones this time (lost them in the week). Not too much of a downside actually, especially on a weekend run; allowing the brain to relax fully is not a bad thing." 
-- date: "2024-03-17"
+- date: '2024-03-13'
+  content: 'OCD (run)'
+  distance:
+  ahr:
+  highlight:
+- date: '2024-03-14'
+  content: 'OCD (run)'
+  distance:
+  ahr:
+  highlight:
+- date: '2024-03-15'
+  content: 'OCD (bike)'
+  distance:
+  ahr:
+  highlight:
+- date: '2024-03-16'
+  content: 'Long run to Kungälv but this time on the bike roads only. Equally smoother as it was boring, I made it there in just 01:53:00. My average HR was a bit high for the given pace, felt good all the way there except for some pain in the knees at the beginning and end.'
+  distance: '22.2 km'
+  ahr: '142'
+  highlight: 'No headphones this time (lost them in the week). Not too much of a downside actually, especially on a weekend run; allowing the brain to relax fully is not a bad thing.'
+- date: '2024-03-17'
   content: "First time trying the prescribed threshold training from Johan Håård. Found a good place on Björlandavägen to do 2 km intervals with 2 min rest. Did 6 x 2.15 km at 4:05 min/km tempo. Felt good all the way, heart rates went a little high in the end closing in on 170 (first run had an average HR of 153). Getting there and back again resulted in additional 4.9 km covered in a warm up/ cool down pace of 5:15 min/km. Bad thing was that my watch died for the third interval, then it reawoke just in time for the start of the forth one. Watch was not also persistant with heart rates nor speeds. Not the first time it malfunctions outside and I hope it will improve as temperatures increases. I will also make sure it's fully charged for every training session going forward."
   distance: '17.8 km'
   ahr: '160 for last intervals'
@@ -334,12 +334,117 @@
   ahr: '135'
   highlight: 'First time I also made my way back again from work running!'
 - date: '2024-03-22'
-  content:
-  distance:
-  ahr:
+  content: "Intervals day similar to 2024-03-18 but only four intervals"
+  distance: "14.5 km including warmup and cool-down"
+  ahr: "170 as highest during intervals"
   highlight:
 - date: '2024-03-23'
-  content:
+  content: "Was fatigued from all the running during the week-days. Shortened down the long run a bit therefore."
+  distance: "14.5 km"
+  ahr: "130"
+  highlight:
+  - date: '2024-03-24'
+  content: "Intervals day similar to 2024-03-18 but only four intervals"
+  distance: "14.5 km including warmup and cool-down"
+  ahr: "170 as highest during intervals"
+  highlight:
+  - date: '2024-03-25'
+  content: 'OCD (bike)'
   distance:
   ahr:
   highlight:
+  - date: '2024-03-26'
+  content: 'OCD (bike)'
+  distance:
+  ahr:
+  highlight:
+  - date: '2024-03-27'
+   content: "Recovery day from cold"
+  distance:
+  ahr:
+  highlight:
+  - date: '2024-03-28'
+  content: "Recovery day from cold"
+  distance:
+  ahr:
+  highlight:
+  - date: '2024-03-29'
+  content: "Recovery day from cold"
+  distance:
+  ahr:
+  highlight:
+  - date: '2024-03-30'
+  content: "Recovery day from cold"
+  distance:
+  ahr:
+  highlight:
+  - date: '2024-03-31'
+  content: "Recovery day from cold"
+  distance:
+  ahr:
+  highlight:
+  - date: '2024-04-01'
+  content: "Recovery day from cold"
+  distance:
+  ahr:
+  highlight:
+  - date: '2024-04-02'
+  content: "Recovery day from cold"
+  distance:
+  ahr:
+  highlight:
+  - date: '2024-04-03'
+  content: "Recovery day from cold"
+  distance:
+  ahr:
+  highlight:
+    - date: '2024-04-04'
+  content: "Recovery day from cold"
+  distance:
+  ahr:
+  highlight:
+    - date: '2024-04-05'
+  content: "Recovery day from cold"
+  distance:
+  ahr:
+  highlight:
+    - date: '2024-04-06'
+  content: "Long run in Skatås. I discovered I was really not in shape, it having detoriated heavily during the cold. Heart rate was too high. Also biked there and back again."
+  distance: "Unknown since watch died, probably around 25 km."
+  ahr: "141"
+  highlight:
+    - date: '2024-04-07'
+  content: "Rest day"
+  distance:
+  ahr:
+  highlight:
+    - date: '2024-04-08'
+  content: 'OCD (bike)'
+  distance:
+  ahr:
+  highlight:
+    - date: '2024-04-09'
+  content: 'OCD (bike)'
+  distance:
+  ahr:
+  highlight:
+    - date: '2024-04-10'
+  content: 'OCD (bike)'
+  distance:
+  ahr:
+  highlight:
+    - date: '2024-04-11'
+  content: 'OCD (bike)'
+  distance:
+  ahr:
+  highlight:
+    - date: '2024-04-12'
+  content: 'OCD (bike)'
+  distance:
+  ahr:
+  highlight:
+      - date: '2024-04-13'
+  content: "Ran Varvetmilen, also bicycled to and from the race place. See separate post for detailed reflections."
+  distance: "10 km"
+  ahr: 
+  highlight: "Got a finish time under 40 minutes (39:25) meaning I'll join the first starters in Göteborgsvarvet."
