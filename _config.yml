@@ -21,7 +21,7 @@
 title: Red Shoes Running
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to Red Shoes Running by Oskar Huledal, a simple blog about a man's personal training journey for Göteborgsvarvet 2024.
+  Welcome to Red Shoes Running by Oskar Huledal, a simple blog about a man's personal training journey for Göteborgsvarvet 2025.
 url: "https://redshoesrunning.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
