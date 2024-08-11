@@ -4,12 +4,7 @@
 layout: home
 ---
 
-
-
-<div class="img-right" style="display:flex;flex-direction:column">
-<img src="/assets/images/face-me.png" alt="The Runner Running"  style="width:300px">
-<iframe height='454' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/135151962/latest-rides/bd3bc53fd14bc55ec4112d9c30f5031d8657f9c2'></iframe>
-</div>
+<img class="img-right img-small" src="/assets/images/face-me.png" alt="The Runner Running">
 
 Hello there! My name is Oskar Huledal and I have a goal of running Göteborgsvarvet 2025 at the best of my ability. I am quite new to running races but I love to set ambitious goals and also to write about the progress and any ideas that come up along the way of a project - hence the existance of this blog.
 
