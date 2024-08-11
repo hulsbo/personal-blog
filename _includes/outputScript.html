@@ -1,0 +1,73 @@
+
+<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		// Get today's date in YYYY-MM-DD format
+		const today = new Date().toISOString().split('T')[0];
+		
+
+		// Find the div with today's date as its content
+		let dateDiv = Array.from(document.getElementsByTagName('div')).find(div => div.textContent.trim() === today);
+		
+		let isTooEarly = false;
+		let isTooLate = false;
+
+
+
+		if (!dateDiv) {
+			// Fallback: look for divs with data-label="DATE"
+			const dateDivs = Array.from(document.querySelectorAll('div[data-label="Date"]'));
+			
+			if (dateDivs.length > 0) {
+				// Sort the divs by date
+				dateDivs.sort((a, b) => a.textContent.localeCompare(b.textContent));
+				
+				const firstDate = dateDivs[0].textContent.trim();
+				const lastDate = dateDivs[dateDivs.length - 1].textContent.trim();
+				
+				if (today < firstDate) {
+					dateDiv = dateDivs[0]; // Pick the first if current date is earlier
+					isTooEarly = true;
+				} else if (today > lastDate) {
+					dateDiv = dateDivs[dateDivs.length - 1]; // Pick the last if current date is later
+					isTooLate = true;
+				} else {
+					// Find the closest date that's not in the future
+					dateDiv = dateDivs.find(div => div.textContent.trim() <= today);
+				}
+			}
+		}
+		
+		if (dateDiv) {
+			// Find the ancestor details element
+			const detailsElement = dateDiv.closest('details');
+			
+			// Find the closest ancestor li element
+			const liElement = dateDiv.closest('li');
+
+			if (liElement && !isTooEarly) {
+				// Change the background color to a blue tint
+				liElement.style.backgroundColor = '#e6f2ff';  // Light blue tint
+
+				setTimeout(() => {
+						// Set the 'open' attribute to true
+						detailsElement.open = true;
+					
+						// Scroll to the li element
+						liElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+				}, 1500)
+			}
+		}
+
+		// Show disclaimers if necessary
+		const disclaimerTooEarly = document.getElementById('disclaimer-too-early');
+		const disclaimerTooLate = document.getElementById('disclaimer-too-late');
+
+		if (isTooEarly && disclaimerTooEarly) {
+			disclaimerTooEarly.style.display = 'block';
+		}
+
+		if (isTooLate && disclaimerTooLate) {
+			disclaimerTooLate.style.display = 'block';
+		}
+	});
+	</script>

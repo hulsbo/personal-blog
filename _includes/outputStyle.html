@@ -1,0 +1,98 @@
+
+<style>
+	.headerStyle {
+		display: none;
+	}
+
+	details {
+		background-color: white;
+		border-radius: 5px;
+		margin-bottom: 20px;
+		box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+	}
+	.detailsStyle {
+		cursor: pointer;
+		padding: 10px;
+		background-image: linear-gradient(to bottom right, rgb(216, 232, 255), rgb(144, 174, 255));
+		color: black;
+		border-radius: 5px 5px 0 0;
+	}
+	.detailsStyle div {
+		display: inline;
+	}
+	ul {
+		list-style-type: none;
+		padding: 10px;
+		margin: 0;
+	}
+	li {
+		--statusColor: #9E9E9E;
+		position: relative;
+		margin-bottom: 15px;
+		border-radius: 5px;
+		overflow: visible;
+		box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+		display: flex;
+		flex-wrap: wrap;
+		background-color: white;
+		padding-left: 30px;
+		min-height: 120px; /* Minimum height to match date div */
+	}
+	.Done {
+		--statusColor: #4CAF50;
+	}
+	.Failed {
+		--statusColor: #F44336;
+	}
+	.Undone {
+		--statusColor: #9E9E9E;
+	}
+	li > div {
+		padding: 5px 10px;
+		position: relative;
+	}
+	li > div:not([data-label="Weekday"]):not([data-label="Remark"]) {
+		width:130px;
+	}
+	li > div:not([data-label="Weekday"]):not([data-label="Remark"])::before {
+		display: block;
+		margin-bottom: 5px;
+		content: attr(data-label) ": ";
+		font-weight: bold;
+		color: #666;
+	}
+	li > div[data-label="Time"]::after {
+		content: " min";
+	}
+	li > div[data-label="Remark"] {
+		flex-basis: 100%;
+		margin-top: 10px;
+		border-top: 1px solid #ccc;
+		padding-top: 10px;
+	}
+	li > div[data-label="Remark"]::before {
+		content: attr(data-label) ": ";
+		font-weight: bold;
+		color: #666;
+	}
+	li > div[data-label="Weekday"] {
+		user-select: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 30px;
+		height: 100%; 
+		writing-mode: vertical-rl;
+		text-orientation: mixed;
+		transform: rotate(180deg);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: white;
+		font-weight: bold;
+		background-color: var(--statusColor);
+		z-index: 2;
+		padding: 0;
+		border-radius: 0 5px 5px 0; 
+	}
+</style>

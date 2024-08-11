@@ -2,16 +2,24 @@
 layout: base
 ---
 <article class="post">
-
   <header class="post-header">
     <h1 class="post-title">{{ page.title | escape }}</h1>
   </header>
 
   <div class="post-content">
 
-    {{ content }}
 
-    {%- include modified_table.html -%}
+
+	{{ content }}
+	<p>Goal with this plan is to run the 21K below 01:25:00 before 1st of November this year (2024).</p>
+	<p id="disclaimer-too-early" style="display: none;">The plan has not started yet, but feel free to examine it below with anticipation!</p>
+	<p id="disclaimer-too-late" style="display: none;">The plan is overdue. Stay tuned for the next one!</p>
+
+
+	{% include outputScript.html %}
+	{%- include outputStyle.html -%}
+	{%- include output.html -%}
+
 
   </div>
 
