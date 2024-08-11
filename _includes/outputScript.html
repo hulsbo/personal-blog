@@ -1,9 +1,29 @@
 
 <script>
+
+	function getTodayGMT1() {
+		// Create a date object in the local time zone
+		const now = new Date();
+		
+		// Use toLocaleString to get the date string in GMT+1 (Central European Time)
+		// The second argument specifies the time zone and output format
+		const dateString = now.toLocaleString('en-GB', { 
+			timeZone: 'Europe/Berlin',  // This automatically handles DST
+			year: 'numeric',
+			month: '2-digit',
+			day: '2-digit'
+		});
+
+		// Convert the date string to YYYY-MM-DD format
+		const [day, month, year] = dateString.split('/');
+		return `${year}-${month}-${day}`;
+	}
+
 	document.addEventListener('DOMContentLoaded', function() {
 		// Get today's date in YYYY-MM-DD format
-		const today = new Date().toISOString().split('T')[0];
-		
+		// Usage
+		const today = getTodayGMT1();
+		console.log(today);
 
 		// Find the div with today's date as its content
 		let dateDiv = Array.from(document.getElementsByTagName('div')).find(div => div.textContent.trim() === today);
