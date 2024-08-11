@@ -50,9 +50,10 @@
 	li > div {
 		padding: 5px 10px;
 		position: relative;
+		user-select: none;
 	}
 	li > div:not([data-label="Weekday"]):not([data-label="Remark"]) {
-		width:130px;
+		width:90px
 	}
 	li > div:not([data-label="Weekday"]):not([data-label="Remark"])::before {
 		display: block;
@@ -63,6 +64,9 @@
 	}
 	li > div[data-label="Time"]::after {
 		content: " min";
+	}
+	li > div[data-label="Distance"]::after {
+		content: " km";
 	}
 	li > div[data-label="Remark"] {
 		flex-basis: 100%;

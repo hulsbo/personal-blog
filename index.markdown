@@ -3,9 +3,11 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
+<img src="/assets/images/face-me.png" alt="The Runner Running" class="img-small img-right">
 
-Hello there! My name is Oskar Huledal and I have a goal this spring of running Göteborgsvarvet 2024. I am new to running races but I love to set ambitious goals and write about my progress towards them - hence the existance of this blog.
+Hello there! My name is Oskar Huledal and I have a goal of running Göteborgsvarvet 2025 at the best of my ability. I am quite new to running races but I love to set ambitious goals and also to write about the progress and any ideas that come up along the way of a project - hence the existance of this blog.
 
-To make my efforts more deliberate and effective I have created a running [plan](/running-plan.markdown) for all training I intend to do before the race the 18:th of May. I update this plan with daily logs about how my training progresses so make sure to come back again for more content.
+After having surprisingly suceeded running the half-marathon distance at 01:21:45 on a trial run, well below the goal 01:25:00 I set the same day for November the 1st (and which I had 12 weeks to prepare myself for) I had to update this HM goal to something more ambitious, and so this goal is now instead set to 01:20:00. The time to achieve that is still 1st of November.
 
-**My current goal is to finish the race below 01:25:00.**
+It's a very ambitious goal but that's also what goals are for - to push us further towards our greatest capability. I am actually equally as surprised as thrilled to confidently set it myself. I hope this 12 - week plan will propel me towards that achievement. Since it's quite intense I reserve the right to adapt it if I feel it's too much on my running plate :-).
+
