@@ -3,8 +3,8 @@
 
   <div class="wrapper">
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col">
+    <div class="footer-col-wrapper" >
+      <!-- <div class="footer-col" style="width:20%">
         <p class="feed-subscribe">
           <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
             <svg class="svg-icon orange">
@@ -22,12 +22,15 @@
           {%- endif %}
         </ul>
       {%- endif %}
-      </div>
+      </div> -->
+	  <div class="footer-col">
+		<iframe height='160' width='100%' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/135151962/activity-summary/bd3bc53fd14bc55ec4112d9c30f5031d8657f9c2'></iframe>
+	  </div>
       <div class="footer-col">
         <p>{{ site.description | escape }}</p>
       </div>
     </div>
-
+	
     <div class="social-links">
       {%- include social.html -%}
     </div>

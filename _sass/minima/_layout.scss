@@ -169,6 +169,18 @@
   }
 }
 
+/* Add this cause I dont want to mess with the sass */
+.footer-col-wrapper {
+	display: flex;
+	flex-wrap: nowrap;
+  }
+  
+  @media screen and (max-width: 730px) {
+	.footer-col-wrapper {
+	  flex-wrap: wrap;
+	}
+  }
+
 @media screen and (min-width: $on-medium) {
   .footer-col-wrapper {
     display: flex
