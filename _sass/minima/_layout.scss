@@ -179,6 +179,9 @@
 	.footer-col-wrapper {
 	  flex-wrap: wrap;
 	}
+	.footer-col {
+		padding-left: 0 !important;
+	  }
   }
 
 @media screen and (min-width: $on-medium) {
