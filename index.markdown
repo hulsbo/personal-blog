@@ -10,5 +10,5 @@ Hello there! My name is Oskar Huledal and I have a goal of running Göteborgsvar
 
 After having surprisingly suceeded running the half-marathon distance at 01:21:45 on a trial run, well below the goal 01:25:00 I set the same day for November the 1st (and which I had 12 weeks to prepare myself for) I had to update this HM goal to something more ambitious, and so this goal is now instead set to 01:20:00. The time to achieve that is still 1st of November.
 
-It's a very ambitious goal but that's also what goals are for - to push us further towards our greatest capability. I am actually equally as surprised as thrilled to confidently set it myself. I hope this 12 - week plan will propel me towards that achievement. Since it's quite intense I reserve the right to adapt it if I feel it's too much on my running plate :-).
+It's a very ambitious goal but that's also what goals are for - to push us further towards our greatest capability. I am actually equally as surprised as thrilled to set it myself knowing at the same time it's not unrealizable to accomplish. I hope this 12 - week plan will propel me towards that achievement. Since it's quite intense I reserve the right to adapt it if I feel it's too much on my running plate :-).
 
