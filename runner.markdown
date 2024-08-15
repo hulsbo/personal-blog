@@ -20,7 +20,7 @@ b. 1995
 
 
 **Weight:** 
-72.5 kg
+~75 kg
 
 
 **Place of residence:** 
@@ -29,7 +29,7 @@ Kvillebäcken, Göteborg
 **Running Club:** regrettably never had any. 
 
 **Enjoys other than running:** 
-playing his saxophone; sailing his Laser; programming stuff; reading classics
+playing his saxophone; sailing his Laser; programming stuff; going out with friends;
 
 **Gear:**
 [The Shoes](/shoes.markdown)
