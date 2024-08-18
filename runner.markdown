@@ -29,7 +29,7 @@ Kvillebäcken, Göteborg
 **Running Club:** regrettably never had any. 
 
 **Enjoys other than running:** 
-playing his saxophone; programming stuff; learning about subjects of interest; going out with friends 🕺
+playing his saxophone; programming stuff; learning about subjects of interest; going out with friends.
 
 **Gear:**
 [The Shoes](/shoes.markdown)
