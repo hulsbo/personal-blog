@@ -1,6 +1,6 @@
 ---
 layout: home
-title:  "My training zones (amended continuously)"
+title:  "My training zones"
 date:   2024-08-10 23:30:00 +0100
 permalink: /zones-table/
 ---
